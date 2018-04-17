@@ -20,6 +20,8 @@ html, body {
 	text-align: center;
 }
 .internal_links {
+	text-decoration: none;
 	vertical-align: middle;
 	line-height: 90px; 
-	margin: 
+	margin: auto;
+}
