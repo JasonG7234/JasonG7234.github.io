@@ -1,6 +1,7 @@
 .test {
-	background-color: red;
-	color: blue;
+	background-color: #abaeb2;
+	color: white;
 	width: 50%;
+	height: 200px;
 	text-align: center;
 }
