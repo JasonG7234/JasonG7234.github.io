@@ -1,6 +1,5 @@
-body {
-	height = 100%;
-	background-color: #ffffff;
+html, body {
+	height: 100%;
 }
 .test {
 	background-color: #424242;
