@@ -4,12 +4,13 @@ html, body {
 	width: 100%;
 	margin: 0;
 }
-.test {
+.nav_bar {
 	background-color: #424242;
 	color: #ffffff;
 	width: 100%;
 	height: 15%;
 	text-align: center;
+	margin: auto;
 }
 .main_body {
 	background-color: #242424;
@@ -18,3 +19,7 @@ html, body {
 	height: 90%;
 	text-align: center;
 }
+.internal_links {
+	vertical-align: middle;
+	line-height: 90px; 
+	margin: 
