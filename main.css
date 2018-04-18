@@ -14,13 +14,13 @@ html, body {
 }
 .main_body {
 	background-color: #242424;
-	color: #ffffff;
 	width: 100%;
 	height: 90%;
 	text-align: center;
 }
 .internal_links {
 	text-decoration: none;
+	color: #ffffff;
 	vertical-align: middle;
 	line-height: 90px; 
 	margin: auto;
