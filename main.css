@@ -20,6 +20,7 @@ html, body {
 	text-align: center;
 }
 .internal_links {
+	height: 100%;
 	text-decoration: none;
 	color: #ffffff;
 	vertical-align: middle;
