@@ -13,15 +13,9 @@ html, body {
 	margin: 0;
 }
 .helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
-.main_body {
-	background-color: #242424;
-	width: 100%;
-	height: 88%;
-	text-align: center;
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
 }
 .internal_links {
 	display: table-cell;
@@ -35,4 +29,15 @@ html, body {
 }
 .internal_links:hover {
 	border-bottom: 2px solid #D31E0D;
+}
+.main_body {
+	background-color: #242424;
+	width: 100%;
+	height: 88%;
+	text-align: center;
+}
+.center_text {
+	color: #ffffff;
+	font-size: 48px; 
+	font-weight: bold;
 }
