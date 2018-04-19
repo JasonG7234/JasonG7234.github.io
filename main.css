@@ -10,7 +10,12 @@ html, body {
 	color: #ffffff;
 	width: 100%;
 	height: 12%;
-	margin: auto;
+	margin: 0;
+}
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
 .main_body {
 	background-color: #242424;
