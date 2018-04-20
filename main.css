@@ -33,11 +33,17 @@ html, body {
 .main_body {
 	background-color: #242424;
 	width: 100%;
-	height: 88%;
-	text-align: center;
+	height: 88%; 
+	text-align: center; 
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+}
+.index_content {
+	color: #ffffff;
+	font-weight: bold;	
 }
 .center_text {
-	color: #ffffff;
 	font-size: 48px; 
-	font-weight: bold;
 }
