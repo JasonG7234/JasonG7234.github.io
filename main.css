@@ -1,5 +1,5 @@
 html, body {
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	height: 100%;
 	width: 100%;
 	margin: 0;
@@ -41,9 +41,21 @@ html, body {
 
 }
 .index_content {
-	color: #ffffff;
 	font-weight: bold;	
 }
-.center_text {
-	font-size: 48px; 
+.indexmain_text {
+	font-size: 48px;
+	color: #ffffff; 
+}
+.indexsecond_text {
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 28px; 
+	color: #cccccc; 
+}
+.indexthird_text {
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 24px; 
+	color: #cccccc; 
 }
