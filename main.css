@@ -42,10 +42,8 @@ html, body {
 	align-items:center;
 
 }
-.index_content {
-	font-weight: bold;	
-}
 #index.main_text {
+	font-weight: bold;
 	font-size: 48px;
 	color: #ffffff; 
 }
