@@ -28,7 +28,7 @@ html, body {
 	margin: auto;
 }
 .internal_links:hover {
-	border-bottom: 2px solid #D31E0D;
+	border-bottom: 2px solid #e80109;
 }
 .main_body {
 	background-color: #242424;
@@ -43,19 +43,31 @@ html, body {
 .index_content {
 	font-weight: bold;	
 }
-.indexmain_text {
+#index.main_text {
 	font-size: 48px;
 	color: #ffffff; 
 }
-.indexsecond_text {
+#index.second_text {
 	display: inline-block;
 	margin-top: 10px;
 	font-size: 28px; 
 	color: #cccccc; 
 }
-.indexthird_text {
+#index.third_text {
 	display: inline-block;
 	margin-top: 10px;
 	font-size: 24px; 
 	color: #cccccc; 
 }
+#index.side_buttons { 
+	width: 200px;
+	height: 50px;
+	color: #cccccc; 
+	border: 2px solid #e80109;
+	background-color: #e80109;
+	font-size: 18px;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+#index.side_buttons:hover {
+	color: #ffffff;
