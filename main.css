@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 html, body {
 	font-family: 'Open Sans', sans-serif;
 	height: 100%;
@@ -62,11 +64,13 @@ html, body {
 #index.side_buttons { 
 	width: 200px;
 	height: 50px;
-	color: #cccccc; 
+	border-radius: 5px;
 	border: 2px solid #e80109;
 	background-color: #e80109;
+	color: #cccccc; 
 	font-size: 18px;
-	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;	
 	margin-top: 15px;
 }
 #index.side_buttons:hover {
