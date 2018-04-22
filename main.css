@@ -32,7 +32,7 @@ html, body {
 .internal_links:hover {
 	border-bottom: 2px solid #e80109;
 }
-.main_body {
+.background_centerflexbox {
 	background-color: #242424;
 	width: 100%;
 	height: 88%; 
@@ -42,20 +42,29 @@ html, body {
 	align-items:center;
 
 }
-#index.main_text {
+h1 {
+	padding: 0px;
+	margin: 0px;
 	font-weight: bold;
+	margin-bottom: 10px;
+	display: inline-block;
 	font-size: 48px;
 	color: #ffffff; 
 }
-#index.second_text {
+h2 {
+	padding: 0px;
+	margin: 0px;
 	display: inline-block;
-	margin-top: 10px;
+	font-weight: normal;
 	font-size: 28px; 
 	color: #cccccc; 
 }
-#index.third_text {
+h3 {
+	padding: 0px;
+	margin: 0px;
 	display: inline-block;
-	margin-top: 10px;
+	font-weight: normal;
+	margin-top: 15px;
 	font-size: 24px; 
 	color: #cccccc; 
 }
@@ -65,11 +74,16 @@ html, body {
 	border-radius: 5px;
 	border: 2px solid #e80109;
 	background-color: #e80109;
-	color: #cccccc; 
+	color: #ffffff; 
 	font-size: 18px;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: bold;	
+	font-weight: bold;
 	margin-top: 15px;
 }
 #index.side_buttons:hover {
-	color: #ffffff;
+	color: #cccccc;
+}
+#nba_draft.material-icons {
+	font-size: 48px; 
+	color: #ffffff
+}
