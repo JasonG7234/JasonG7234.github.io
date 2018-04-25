@@ -94,3 +94,11 @@ h3 {
 	display: inline-block;
 	vertical-align: 10px;
 }
+#big_board {
+	height: 100%;
+	width: 75%;
+	border: 1px solid #ccc;
+	text-align: left;
+	margin: 0 auto;
+}
+
