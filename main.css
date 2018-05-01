@@ -122,4 +122,5 @@ h3 {
 }
 #big_board.comp {
 	font-style: italic;
-	color: blue;
+	font-weight: bold;
+	color: #35A51C;
