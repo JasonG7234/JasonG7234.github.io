@@ -108,7 +108,8 @@ h3 {
 }
 #big_board.tier_text {
 	color: red;
-	font-size: 14pt;
+	font-size: 16pt;
+	font-weight: bold;
 	background-color: transparent;
 	border: 0;
 }
