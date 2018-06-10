@@ -108,7 +108,7 @@ h3 {
 }
 #big_board.tier_text {
 	color: red;
-	font-size: 16pt;
+	font-size: 18pt;
 	font-weight: bold;
 	background-color: transparent;
 	border: 0;
@@ -116,12 +116,16 @@ h3 {
 #big_board.tier_break {
 	margin: 0px -50px;
 	color: #ccc;
+	background-color: #ccc;
+	border: none;
+	height: 15px;
 }
 #big_board.player_name {
 	font-weight: bold;
-	font-size: 16pt;
+	font-size: 20pt;
 }
 #big_board.comp {
 	font-style: italic;
 	font-weight: bold;
-	color: #35A51C;
+	font-size: 14pt;
+	color: #236d12;
