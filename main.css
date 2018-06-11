@@ -124,6 +124,10 @@ h3 {
 	font-weight: bold;
 	font-size: 20pt;
 }
+#big_board.category {
+	font-weight: bold; 
+	font-size: 14pt;
+}
 #big_board.comp {
 	font-style: italic;
 	font-weight: bold;
