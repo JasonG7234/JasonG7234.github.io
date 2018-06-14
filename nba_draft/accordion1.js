@@ -23,6 +23,6 @@ function openTab(evt, tabName) {
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
-    var panel = event.target.parentElement.parentElement;  panel.querySelector("." + tabName).style.display = "block";
+    var panel = evt.target.parentElement.parentElement;  panel.querySelector("." + tabName).style.display = "block";
     evt.target.className += " active";
 }
