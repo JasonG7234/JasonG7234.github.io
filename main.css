@@ -230,4 +230,9 @@ a#big_board:visited {
   background-color:#424242;
   overflow: hidden;
 }
-
+#big_board.disclaimer {
+	padding-left: 5px; 
+	padding-right: 5px;
+	color: #ccc;
+	font-size: 14pt;
+}
