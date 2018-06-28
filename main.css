@@ -236,3 +236,16 @@ a#big_board:visited {
 	color: #ccc;
 	font-size: 14pt;
 }
+#contact.email {
+	margin-top: 25px;
+	height: 64px;
+	width: 560px;
+	background-color: black;
+	color: #242424;
+	font-size: 32px;
+	border: none;
+	border-radius: 50px;
+}
+#contact.email:hover {
+	background-color: #ff1433;
+}

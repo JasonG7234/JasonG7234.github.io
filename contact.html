@@ -5,6 +5,25 @@
 	<link type="text/css" rel="stylesheet" href="main.css"/>
 	<link rel="icon" href="images/icon.png">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+	<script>
+		function hover(element, social) {
+			var s = parse('images/%s_red.png', social);
+			element.setAttribute('src', s);
+		}
+
+		function unhover(element, social) {
+			var s = parse('images/%s_black.png', social);
+			element.setAttribute('src', s);
+		}
+		function parse(str) {
+			var args = [].slice.call(arguments, 1),
+			i = 0;
+
+			return str.replace(/%s/g, function() {
+        return args[i++];
+		});
+}
+	</script>
 </head>
 <body>
 <header class="nav_bar">
@@ -18,12 +37,20 @@
 		<a href="resume.html" class="internal_links">Resume</a>
 		<a href="nba_draft.html" class="internal_links">NBA Draft</a>
 		<a href="contact.html" class="internal_links">Contact</a>
-	</div>
+	</div>	
 </header>
 <div class="background_color"><div class="centerflexbox">
 	<div>
-		<h1>Unfortunately I didn't have enough time to <br>edit this page and put out a big board.</h1><br>
-		<a href="nba_draft/2018_big_board.html"><h2 style="color: #e80109;">Have you checked that out yet?</h2></a>
+		<h1>Connect with me on social media: </h1><center>
+		<table style="width: 80%; padding-top: 25px; padding-bottom: 25px;"><tr style="width: 100%;">
+		<td style="text-align: center"><a href="https://www.reddit.com/u/cbaswag"><img src="images/reddit_black.png" onmouseover="hover(this, 'reddit');" onmouseout="unhover(this, 'reddit');" /></a></td>
+		<td style="text-align: center"><a href="https://twitter.com/MilosTeodopesic"><img src="images/twitter_black.png" onmouseover="hover(this, 'twitter');" onmouseout="unhover(this, 'twitter');" /></a></td>
+		<td style="text-align: center"><a href="https://www.linkedin.com/in/jason-gomes-ab4842b8/"><img src="images/linkedin_black.png" onmouseover="hover(this, 'linkedin');" onmouseout="unhover(this, 'linkedin');" /></a></td>
+		<td style="text-align: center"><a href="https://www.facebook.com/jason.gomes.39"><img src="images/facebook_black.png" onmouseover="hover(this, 'facebook');" onmouseout="unhover(this, 'facebook');" /></a></td>
+		<td style="text-align: center"><a href="https://github.com/JasonG7234"><img src="images/github_black.png" onmouseover="hover(this, 'github');" onmouseout="unhover(this, 'github');" /></a></td>
+	</tr></table></center>
+		<h1>Or just shoot me an email: </h1><br />
+		<a href="mailto:JasonG7234@gmail.com"><button id="contact" class="email">JasonG7234@gmail.com</button></a>
 	</div>
 </div>
 </div>
