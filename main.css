@@ -37,6 +37,14 @@ html, body {
 	width: 100%;
 	height: 88%;
 }
+.background_wallpaper {
+	position: absolute;
+	z-index: -1;
+	content:url(images/basketball_wallpaper.jpg);
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
 .centerflexbox {
 	width: 100%;
 	height: 100%; 
