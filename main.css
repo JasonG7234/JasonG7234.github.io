@@ -257,3 +257,23 @@ a#big_board:visited {
 #contact.email:hover {
 	background-color: #ff1433;
 }
+#about.left {
+	float: left;
+	height: 100%;
+	width: 50%;
+	text-align: center; 
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+}
+#about.right {
+	float: right;
+	height: 100%;
+	width: 50%;
+}
+#about.pic {
+	height: 75%;
+	overflow: hidden;
+	
+}
