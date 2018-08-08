@@ -249,7 +249,7 @@ a#big_board:visited {
 	height: 64px;
 	width: 560px;
 	background-color: black;
-	color: #242424;
+	color: #3E3E3E;
 	font-size: 32px;
 	border: none;
 	border-radius: 50px;
@@ -275,4 +275,16 @@ a#big_board:visited {
 	font-size: 18px;
  	line-height: 1.5;
 }
-
+#resume.download {
+	height: 52px;
+	width: 320px;
+	background-color: black;
+	margin-top: 25px;
+	color: #3E3E3E;
+	font-size: 24px;
+	border: none;
+	border-radius: 50px;
+}
+#resume.download:hover {
+	background-color: #ff1433;
+}
