@@ -37,6 +37,16 @@ html, body {
 	width: 100%;
 	height: 88%;
 }	
+#about.background_color {
+	position: absolute;
+	z-index: -1;
+	content = '';
+	background: url(images/about_wallpaper.jpg);
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
 .background_wallpaper {
 	position: absolute;
 	z-index: -1;
