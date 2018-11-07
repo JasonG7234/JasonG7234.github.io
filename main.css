@@ -271,6 +271,8 @@ a#big_board:visited {
 #about.center {
 	display:flex; 
 	width: 60%; 
+	background-color: gray;
+	
 	margin: 0 auto; 
 	text-align: left;
 }
