@@ -39,7 +39,6 @@ html, body {
 }	
 
 #nba_draft.background_color {
-	position: absolute;
 	z-index: -1;
 	content = '';
 	background: url(images/nba_draft_wallpaper.jpg);
@@ -122,14 +121,14 @@ h3 {
 }
 #nba_draft h3{
 	font-size: 28px;
-	color: #FFF;
+	color: white;
 	text-shadow: 0px 0px 5px #000;
 }
 
 #nba_draft h3:hover{
 	color: white;
-	text-shadow: 0px 0px 5px #000000;
-	font-weight: strong;
+	text-shadow: 0px 0px 5px #000;
+	font-weight: bold;
 }
 
 .center_text {
