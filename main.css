@@ -57,6 +57,24 @@ html, body {
 	overflow: hidden;
 }
 
+#resume.background_color {
+	position: absolute;
+	content: '';
+	background: url(images/resume_wallpaper.jpg);
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#contact.background_color {
+	position: absolute;
+	content: '';
+	background: url(images/contact_wallpaper.jpg);
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
 .background_wallpaper {
 	position: absolute;
 	z-index: -1;
@@ -281,14 +299,14 @@ a#big_board:visited {
 	margin-top: 25px;
 	height: 64px;
 	width: 560px;
-	background-color: black;
+	background-color: #ff1433;
 	color: #3E3E3E;
 	font-size: 32px;
 	border: none;
 	border-radius: 50px;
 }
 #contact.email:hover {
-	background-color: #ff1433;
+	background-color: black;
 }
 #about.center {
 	display:flex; 
@@ -313,7 +331,7 @@ a#big_board:visited {
 #resume.download {
 	height: 52px;
 	width: 320px;
-	background-color: black;
+	background-color: white;
 	margin-top: 25px;
 	color: #3E3E3E;
 	font-size: 24px;
@@ -321,5 +339,5 @@ a#big_board:visited {
 	border-radius: 50px;
 }
 #resume.download:hover {
-	background-color: #ff1433;
+	color: #1c1c1c;
 }

@@ -7,12 +7,12 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
 	<script>
 		function hover(element, social) {
-			var s = parse('images/%s_red.png', social);
+			var s = parse('images/%s_black.png', social);
 			element.setAttribute('src', s);
 		}
 
 		function unhover(element, social) {
-			var s = parse('images/%s_black.png', social);
+			var s = parse('images/%s_red.png', social);
 			element.setAttribute('src', s);
 		}
 		function parse(str) {
@@ -26,7 +26,8 @@
 	</script>
 </head>
 <body>
-<header class="nav_bar">
+<div id="contact" class="background_color">
+<header class="nav_bar" style="background-color: transparent;">
 	<span class="helper"></span>
 	<a href="index.html">
 		<img src="images/icon2.png" alt="logo" style="vertical-align: middle; height:50px; width:55px; padding-left: 2%;"/>
@@ -36,17 +37,17 @@
 		<a href="resume.html" class="internal_links">Resume</a>
 		<a href="nba_draft.html" class="internal_links">NBA Draft</a>
 		<a href="contact.html" class="internal_links">Contact</a>
-	</div>	
+	</div>
 </header>
-<div class="background_color"><div class="centerflexbox">
+<div class="centerflexbox">
 	<div>
 		<h1>Connect with me on social media: </h1><center>
 		<table style="width: 80%; padding-top: 25px; padding-bottom: 25px;"><tr style="width: 100%;">
-		<td style="text-align: center"><a href="https://www.reddit.com/u/cbaswag"><img src="images/reddit_black.png" onmouseover="hover(this, 'reddit');" onmouseout="unhover(this, 'reddit');" /></a></td>
-		<td style="text-align: center"><a href="https://twitter.com/MilosTeodopesic"><img src="images/twitter_black.png" onmouseover="hover(this, 'twitter');" onmouseout="unhover(this, 'twitter');" /></a></td>
-		<td style="text-align: center"><a href="https://www.linkedin.com/in/jason-gomes-ab4842b8/"><img src="images/linkedin_black.png" onmouseover="hover(this, 'linkedin');" onmouseout="unhover(this, 'linkedin');" /></a></td>
-		<td style="text-align: center"><a href="https://www.facebook.com/jason.gomes.39"><img src="images/facebook_black.png" onmouseover="hover(this, 'facebook');" onmouseout="unhover(this, 'facebook');" /></a></td>
-		<td style="text-align: center"><a href="https://github.com/JasonG7234"><img src="images/github_black.png" onmouseover="hover(this, 'github');" onmouseout="unhover(this, 'github');" /></a></td>
+		<td style="text-align: center"><a href="https://www.reddit.com/u/cbaswag"><img src="images/reddit_red.png" onmouseover="hover(this, 'reddit');" onmouseout="unhover(this, 'reddit');" /></a></td>
+		<td style="text-align: center"><a href="https://twitter.com/MilosTeodopesic"><img src="images/twitter_red.png" onmouseover="hover(this, 'twitter');" onmouseout="unhover(this, 'twitter');" /></a></td>
+		<td style="text-align: center"><a href="https://www.linkedin.com/in/jason-gomes-ab4842b8/"><img src="images/linkedin_red.png" onmouseover="hover(this, 'linkedin');" onmouseout="unhover(this, 'linkedin');" /></a></td>
+		<td style="text-align: center"><a href="https://www.facebook.com/jason.gomes.39"><img src="images/facebook_red.png" onmouseover="hover(this, 'facebook');" onmouseout="unhover(this, 'facebook');" /></a></td>
+		<td style="text-align: center"><a href="https://github.com/JasonG7234"><img src="images/github_red.png" onmouseover="hover(this, 'github');" onmouseout="unhover(this, 'github');" /></a></td>
 	</tr></table></center>
 		<h1>Or just shoot me an email: </h1><br />
 		<a href="mailto:JasonG7234@gmail.com"><button id="contact" class="email">JasonG7234@gmail.com</button></a>
