@@ -309,12 +309,13 @@ a#big_board:visited {
 	background-color: black;
 }
 #about.center {
-	display:flex; 
-	width: 60%; 
-	background-color: gray;
-	
-	margin: 0 auto; 
-	text-align: left;
+	width: 100%;
+	height: 88%; 
+	text-align: left; 
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
 }
 #about.pic {
 	float: left;
