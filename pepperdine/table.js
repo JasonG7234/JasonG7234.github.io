@@ -1,3 +1,3 @@
 $(document).ready(function(){
-  $('#infoTable').tablesorter(); 
+  $('.alternateColorsTable').tablesorter(); 
 });
