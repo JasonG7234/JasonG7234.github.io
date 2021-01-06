@@ -1,36 +1,59 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>About</title>
-	<link type="text/css" rel="stylesheet" href="main.css"/>
 	<link rel="icon" href="images/icon.png">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link type="text/css" rel="stylesheet" href="main.css"/>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
 </head>
-<body style="overflow: auto;">
-<div id="about" class="background_color" style="filter: brightness(50%);"></div>
-<header class="nav_bar" style="background-color: transparent;">
-	<span class="helper"></span>
-	<a href="index.html">
-		<img src="images/icon2.png" alt="logo" style="vertical-align: middle; height:50px; width:55px; padding-left: 2%;"/>
-	</a>
-	<div style="float:right; height: 100%; display: table;">
-		<a href="about.html" class="internal_links">About</a>
-		<a href="resume.html" class="internal_links">Resume</a>
-		<a href="nba_draft.html" class="internal_links">NBA Draft</a>
-		<a href="contact.html" class="internal_links">Contact</a>
-	</div>
-</header>
-<div id="about" class="center">
-<div style="width:60%">
-<p><img id="about" class="pic" src="images/suit.png" alt="suit.jpg" />
-	<h2 style="display: inline; font-size: 32px; color: white;">In case you don't know by now, my name is Jason Gomes.</h2><br>
-	<span id="about" class="text">I am a 21 year old senior at Rutgers University majoring in both Computer Science and Information Technology & Informatics. 
-	I have worked as a HRIS Intern at L'Oreal as well as a Test Enginer Intern for iCims, where I work in a fast-paced Agile Scrum team and deal with quality assurance automation. <br>
-	I grew up in Old Bridge, NJ. My dad is a high school basketball scout, and through him my love of basketball was born. 
-	I can't begin to talk about the number of games we've watched together, from small high school games to NBA playoff games. 
-	As I grew up, I was always the tech guru of our house. I got used to fixing everything from the toaster oven to diagnosing Microsoft errors and installing RAM.<br>
-	When I got to college, I narrowed my potential career options down to computers and sports, specifically basketball. I took a few intro to CS classes and loved it, along with being a manager for the Rutgers Men's Basketball team for two years. <br>
-	<h2 style="display: inline; color: white;">I eventually realized that there's so much that can be done in that intersection between basketball and data.</h2><br> I'm currently in the process of making both a draft evaluation model, along with creating a web scraper in Python that returns any college basketball player's specified information.</span></div></div>
-</div>
+<body id="about" class="body">
+	<header id="header-1">
+		<a href="index.html">
+			<img id="logo" src="images/icon.png" alt="logo">
+		</a>
+		<nav id="nav">
+			<a href="about.html" class="internal_links">About</a>
+			<a href="resume.html" class="internal_links">Resume</a>
+			<a href="nba_draft.html" class="internal_links">NBA Draft</a>
+			<a href="contact.html" class="internal_links">Contact</a>
+		</nav>
+	</header>
+	<header id="header-2">
+		<nav class="navbar custom-toggler">
+			<a href="index.html">
+				<img id="logo" src="images/icon.png" alt="logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			  <div class="navbar-nav">
+				<a class="nav-item nav-link" href="about.html">About</a>
+				<a class="nav-item nav-link" href="resume.html">Resume</a>
+				<a class="nav-item nav-link" href="nba_draft.html">NBA Draft</a>
+				<a class="nav-item nav-link" href="contact.html">Contact</a>
+			  </div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<h2 id="about_title">In case you don't know by now, my name is Jason Gomes.</h2>
+		<section id="about_me">
+			<img id="about_pic" src="images/suit.png" alt="Jason Gomes smiling in a suit.">
+			<p class="about_text">
+				I work as a Software Engineer at iCIMS, a Software-as-a-Service company that provides a wide range of powerful recruiting solutions.
+				I grew up in Old Bridge, NJ. My dad is a high school basketball scout, and through him my love of basketball was born. 
+				I can't begin to talk about the number of games we've watched together, from small high school games to NBA playoff games. 
+				As I grew up, I was always the tech guru of our house. I got used to fixing everything from the toaster oven to diagnosing Microsoft errors and installing RAM.
+				When I got to college, I narrowed my potential career options down to computers and sports, specifically basketball. I took a few intro to CS classes and loved it, along with being a manager for the Rutgers Men's Basketball team for two years.
+				I eventually realized that there's so much that can be done in that intersection between basketball and data.
+				I just finished an <a id="about_link" href="https://github.com/JasonG7234/NBA-Draft-Model">NBA Draft Model in Python</a>, and am currently open to <a id="about_link" href="https://www.upwork.com/freelancers/~01125d5cf011820590">any and all freelance opportunities</a>. 
+			</p> 
+		</section>
+	</main>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js" integrity="sha512-iceXjjbmB2rwoX93Ka6HAHP+B76IY1z0o3h+N1PeDtRSsyeetU3/0QKJqGyPJcX63zysNehggFwMC/bi7dvMig==" crossorigin="anonymous"></script>
 </body>
 </html>
