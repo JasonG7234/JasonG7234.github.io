@@ -284,10 +284,9 @@ main {
 
 /* NBA Draft Folder */
 #header-3, #header-4 {
-	/* border: 1px solid red; */
 	width: 100%;
 	height: 14vh;
-	background-color: black;
+	background-color: #242424;
 	padding: 1vh 5vh
 }
 .nav-toggler {
@@ -464,6 +463,7 @@ a#big_board:visited {
 		width: 90%;
 		margin: 0 auto;
 		font-size: 12pt;
+		border-radius: 5px;
 		background-color: #424242;
 		color: #000;
 		overflow: auto;
