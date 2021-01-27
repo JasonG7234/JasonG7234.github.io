@@ -278,6 +278,9 @@ main {
 	text-shadow: 0px 0px 2px #000;
 	padding-top: 30px;
 }
+#about_icon.active {
+	color: black;
+}
 #about_icons {
 	height: 100%;
 	padding: 0;
@@ -297,6 +300,9 @@ main {
 }
 #about_icons i:hover {
 	color: black; 
+}
+.about_div {
+	display: none;
 }
 
 /* NBA Draft Folder */
@@ -371,7 +377,7 @@ a#big_board:visited {
   transition: 0.4s;
   /*border-bottom: 1px solid #c9c9c9;*/
 }
-.active, .accordion:hover {
+.accordion.active, .accordion:hover {
   background-color: #242424; 
 }
 .panel {
