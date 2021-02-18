@@ -265,21 +265,49 @@ main {
 }
 #about_me {
 	margin: 0 auto;
+	height: 255px;
   	max-width: 1100px;
 }
 #about_title  {
 	margin-bottom: 30px;
 	text-align: center;
 }
-.about_text {
-	text-shadow: 0px 0px 5px #000;
-	font-size: 18px;
-	line-height: 1.5;
-}
 
-#about_link {
-	color:#007bff;
-	text-shadow: none;
+#about_icon {
+	font-size: 72pt;
+	text-shadow: 0px 0px 2px #000;
+	padding-top: 30px;
+}
+#about_icon.active {
+	color: black;
+}
+#about_icons {
+	height: 100%;
+	padding: 0;
+	margin: auto;
+}
+#about_icons li {
+	height: 100%;
+	display: inline-block;
+	vertical-align: bottom;
+	padding: 25px;
+}
+#about_icons i {
+	color: red;
+}
+#about_icons i::before {
+	vertical-align:middle;
+}
+#about_icons i:hover {
+	color: black; 
+}
+.about_div {
+	display: none;
+	text-shadow: 0px 0px 2px #000;
+	padding: 30px;
+}
+.about_link {
+	color: #242424;
 }
 
 /* NBA Draft Folder */
@@ -354,7 +382,7 @@ a#big_board:visited {
   transition: 0.4s;
   /*border-bottom: 1px solid #c9c9c9;*/
 }
-.active, .accordion:hover {
+.accordion.active, .accordion:hover {
   background-color: #242424; 
 }
 .panel {
@@ -451,9 +479,6 @@ a#big_board:visited {
 		margin: 15px;
 		height: 190px;
 		width: 190px; 
-	}
-	.about_text {
-		text-align: left;
 	}
 	#resume_main {
 		margin-top: 50px;
