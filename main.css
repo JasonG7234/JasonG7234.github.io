@@ -272,31 +272,32 @@ main {
 	margin-bottom: 30px;
 	text-align: center;
 }
-
-#about_icon {
+#about_pic {
+	float: left;
+	margin-right: 30px;
+}
+#about_icon { 
 	font-size: 72pt;
-	text-shadow: 0px 0px 2px #000;
-	padding-top: 30px;
+	text-shadow: 0px 0px 4px #000;
 }
 #about_icon.active {
 	color: black;
 }
 #about_icons {
 	height: 100%;
-	padding: 0;
-	margin: auto;
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-between; 
+	list-style-type: none;
 }
 #about_icons li {
 	height: 100%;
-	display: inline-block;
-	vertical-align: bottom;
-	padding: 25px;
+	display: flex;
+	align-items: center;
+	padding: 10px;
 }
 #about_icons i {
 	color: red;
-}
-#about_icons i::before {
-	vertical-align:middle;
 }
 #about_icons i:hover {
 	color: black; 
@@ -306,8 +307,10 @@ main {
 	text-shadow: 0px 0px 2px #000;
 	padding: 30px;
 }
-.about_link {
-	color: #242424;
+#about_link {
+	color: blue;
+	text-decoration: underline;
+	text-shadow: 0px 0px 0px #000;
 }
 
 /* NBA Draft Folder */
@@ -532,10 +535,6 @@ a#big_board:visited {
 	h2, #about_basketball {
 		font-size: 26px;
 	}
-	#about_pic {
-		float: left;
-		margin-right: 30px;
-	}
 	.about_text {
 		text-align: justify;
 	}
@@ -583,5 +582,27 @@ a#big_board:visited {
 	}
 	#reddit_twitter a {
 		margin: 5px; 
+	}
+}
+@media screen and (min-width: 670px) and (max-width: 950px) {
+	#about_icon {
+		font-size: 48pt;
+	}
+	#about_icons {
+		height: 50%;
+	}
+	#about_pic {
+		float: none;
+	}
+}
+@media screen and (max-width: 670px) {
+	#about_icon {
+		font-size: 24pt;
+	}
+	#about_icons {
+		height: 25%;
+	}
+	#about_pic {
+		float: none;
 	}
 }
