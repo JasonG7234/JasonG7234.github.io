@@ -14,8 +14,11 @@ body {
 	margin: 0px;
 }
 body a {
-	color: white;
-	text-decoration: none;
+	color: #51BDFF;
+}
+body a:hover {
+	color: #51BDFF;
+	text-decoration: underline;
 }
 h1 {
 	padding: 0px;
@@ -54,6 +57,10 @@ main {
 	height: 50px;
 	width: 55px;
 	margin-top: 20px;
+	transition: transform 1s;
+}
+#logo:hover {
+	transform: rotateY(180deg);
 }
 #nav {
 	float: right;
@@ -150,7 +157,7 @@ main {
 	border-radius: 5px;
 	border: none;
 	background-color: #e80109;
-	color: #3E3E3E;
+	color: white;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	margin: 15px 15px;
@@ -307,10 +314,79 @@ main {
 	text-shadow: 0px 0px 2px #000;
 	padding: 30px;
 }
-#about_link {
-	color: blue;
-	text-decoration: underline;
-	text-shadow: 0px 0px 0px #000;
+
+/* Projects */
+#projects_body {
+	background-color: #242424;
+	object-fit: contain;
+	z-index: -1;
+	color: white;
+	text-align: left;
+}
+.blog_header {
+  padding-bottom: 50px;
+  text-align: center;
+}
+.blog_title {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+}
+.blog_description {
+  font-size: 20px;
+  color: gray;
+}
+.sticky-top {
+	top: 20px;
+}
+.blog_main {
+  font-size: 18px;
+  line-height: 1.5;
+}
+#projects_main { 
+	text-align: left;
+}
+.sidebar_module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+}
+.sidebar_module_inset {
+  padding: 15px;
+  background-color: #424242;
+  border-radius: 4px;
+  
+}
+.sidebar_module_inset p:last-child,
+.sidebar_module_inset ul:last-child,
+.sidebar_module_inset ol:last-child {
+  margin-bottom: 0;
+}
+.col-sm-8 {
+	padding-left: 30px;
+}
+.blog_post_title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.blog_post_meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+.blog_post_preview {
+	-webkit-mask-image: -webkit-gradient(linear, left 10%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  }
+.blog_post {
+	padding-bottom: 30px;
+}
+#projects_footer {
+  padding: 15px;
+  padding-left: 5vh;
+  margin: -1vh -5vh -5vh -5vh;
+  background-color:#424242;
+}
+.step-text {
+	color: red;
 }
 
 /* NBA Draft Folder */
@@ -496,6 +572,9 @@ a#big_board:visited {
 		color: #000;
 		overflow: auto;
 	}
+	.blog-pic {
+		width: 20vh;
+	}
 }
 @media screen and (min-width: 370px) {
 	h1 {
@@ -518,6 +597,9 @@ a#big_board:visited {
 	#about_pic {
 		height:225px;
 		width: 225px; 
+	}
+	.blog-pic {
+		width: 30vh;
 	}
 
 }
@@ -548,6 +630,9 @@ a#big_board:visited {
 		background-color: #424242;
 		color: #000;
 		overflow: auto;
+	}
+	.blog-pic {
+		width: 60vh;
 	}
 }
 @media screen and (min-width: 670px) {
@@ -594,6 +679,9 @@ a#big_board:visited {
 	#about_pic {
 		float: none;
 	}
+	.blog-pic {
+		width: 50vh;
+	}
 }
 @media screen and (max-width: 670px) {
 	#about_icon {
@@ -604,5 +692,9 @@ a#big_board:visited {
 	}
 	#about_pic {
 		float: none;
+	}
+	#projects_body {
+		margin-left: -2vh;
+		margin-right: -2vh;
 	}
 }

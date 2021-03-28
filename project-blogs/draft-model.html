@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-M96NVP2DZ7"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+  		gtag('config', 'G-M96NVP2DZ7');
+	</script>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>NBA Draft Model</title>
+	<link rel="icon" href="../images/icon.png">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link type="text/css" rel="stylesheet" href="../main.css"/>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body id="projects_body" class="body">
+	<header id="header-1">
+		<a href="../index.html">
+			<img id="logo" src="../images/icon.png" alt="logo">
+		</a>
+		<nav id="nav">
+			<a href="../about.html" class="internal_links">About</a>
+			<a href="../resume.html" class="internal_links">Resume</a>
+            <a href="../projects.html" class="internal_links">Projects</a>
+			<a href="../nba_draft.html" class="internal_links">NBA Draft</a>
+			<a href="../contact.html" class="internal_links">Contact</a>
+		</nav>
+	</header>
+	<header id="header-2">
+		<nav class="navbar custom-toggler">
+			<a href="../index.html">
+				<img id="logo" src="../images/icon.png" alt="logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			  <div class="navbar-nav">
+				<a class="nav-item nav-link" href="../about.html">About</a>
+				<a class="nav-item nav-link" href="../resume.html">Resume</a>
+                <a class="nav-item nav-link" href="../projects.html">Projects</a>
+				<a class="nav-item nav-link" href="../nba_draft.html">NBA Draft</a>
+				<a class="nav-item nav-link" href="../contact.html">Contact</a>
+			  </div>
+			</div>
+		</nav>
+	</header>
+	<main id="projects_main">
+    <div class="container">
+      <div class="blog_header">
+        <h1 class="blog_title">Projects</h1>
+        <p class="blog_description">Here are some fun things I've worked on.</p>
+      </div>
+      <div class="row">
+	  	<div class="col-sm-3 col-sm-offset-1">
+          <div class="sticky-top">
+            <div class="sidebar_module sidebar_module_inset">
+              <h4>About</h4>
+              <p>I like to work on random projects. On this page, I'll document some of the unique and fun projects/interests of mine. Inspired (mostly) by <a href="https://tinyprojects.dev">tinyprojects.dev</a>.</p>
+            </div>
+            <div class="sidebar_module">
+              <h4>Archives</h4>
+              <ol class="list_unstyled">
+                <li><a href="website.html">Making this Website</a></li>
+				        <li><a href="draft-model.html">NBA Draft ML Model</a></li>
+                <li><a href="magic-mirror.html">Magic Mirror</a></li>
+              </ol>
+            </div>
+          </div>
+        </div><!-- / blog-sidebar -->
+        <div class="col-sm-8 blog_main">
+          <div class="blog_post">
+            <h2 class="blog_post_title">How easy is it to predict sleepers in the NBA Draft using machine learning?</h2>
+            <p class="blog_post_meta">November 9, 2020</p>
+            <p>In case you couldn't tell by looking at this site, I really love basketball.</p>
+            <p>I always was an NBA fan since the days of Jason Kidd and Allen Iverson. My dad is a New Jersey high school basketball scout, so he was more interested in watching the local guys play college basketball.</p>
+            <p>Regardless, basketball was always on a TV at my house.</p>
+            <p>Eventually, I felt like I had a good grasp on both college and NBA basketball, which led to me really loving the NBA Draft. I loved making mock drafts and guessing where each player was going, and then projecting how good the player would be in their situation.</p>
+            <p>I was writing articles about the NBA Draft as far back as 2014 (although it seems like some of the images are no longer hosted on the server).</p>
+            <br><center><img class="blog-pic" src="../images/fullcourtprez.png"/></center><br>
+            <p>Once I got to college, my love for college basketball grew as I became a student manager for the Rutgers men's team. I got really invested in scouting and analytics.</p>
+            <h3>I slowly grew into an NBA Draft guru.</h3><br>
+            <p>It all culminated my junior year, when I published my <a href="../nba_draft/2018_big_board.html">2018 NBA Draft Big Board</a>. The final draft finished at just over 40 thousand words in total, covering 55 players.</p>
+            <p>While I was going through the process of writing, I wanted some other way of evaluating prospects outside of the eye test. Sure, I could look up some advanced stats on each player, but that is just a piece of the puzzle.<p>
+            <h3> I wanted to combine my programming expertise and my love of college basketball to create a model that would predict NBA careers based off of NCAA stats, starting with the 2020 NBA Draft.</h3><br>
+            <p>So, for <span class="step-text">Step 1</span>, I knew I needed to get a list of college prospects en masse. My thought was to go to <a href="https://www.nbadraft.net/ranking/bigboard/">nbadraft.net</a> and pull their Top 100 Big Board from every year they've released it (since 2009). Now, I understand a lot of draft pundits refute some of the rankings from this site, but I found it to be the most consistent and the easiest to scrape.</p>
+            <p>After I whipped up a neat Python script using <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a> to add all entries in all the Top 100 Big Board tables to a master CSV list, I used <a href="https://pandas.pydata.org/">pandas</a> to effectively organize/analyze it. After filtering out all the players who didn't play college basketball and adding RSCI ranks through <a href="https://247sports.com/Season/2021-Basketball/CompositeRecruitRankings/?InstitutionGroup=HighSchool">247sports</a>, I was left with ~1100 rows of prospect data.</p>
+            <p><span class="step-text">Step 2</span> is where things got needlessly hard. The idea was to head over to <a href="https://www.sports-reference.com/cbb/">basketball-reference.com</a> and pull each players' NCAA and NBA stats into the pandas DataFrame. However, there are a LOT of pain points I found with scraping basketball-reference.
+            <ul>
+              <li>basketball-reference would spell players' name inconsistently <i> on their own site</i>.For example, basketball-reference had a college page for <a href="https://www.sports-reference.com/cbb/players/patrick-mills-1.html">Patrick Mills</a> but an NBA page for <a href="https://www.basketball-reference.com/players/m/millspa02.html">Patty Mills</a>. This isn't super common, but I had to create a dictionary of exceptions for that.</li>
+              <li>Same with college names. <a href="https://twitter.com/MilosTeodopesic/status/1257463107330494466">One page had Louisiana, the other had LA-Lafayette (???)</a>.</li>
+              <li>The format of some of the college tables have changed since 2009.<a href="https://www.sports-reference.com/cbb/players/blake-griffin-1.html">Blake Griffin's college basketball-reference page</a> is missing a lot of advanced numbers, along with some of the per-minute ORTG & DRTG numbers. This makes it harder to scrape and it makes the model less accurate, but I'll talk more to that point towards the end.</li>
+              <li>Common player names were really a nightmare. With names like <a href="https://www.sports-reference.com/cbb/search/search.fcgi?search=Mike+Scott">Mike Scott</a>, <a href="https://www.sports-reference.com/cbb/search/search.fcgi?search=Gary+Clark">Gary Clark</a>, and even <a href="https://www.sports-reference.com/cbb/search/search.fcgi?search=Anthony+Davis">Anthony Davis</a>, it was difficult to ensure that I landed on the correct player page.</li>
+            </ul>
+            <br><center><img class="blog-pic" src="../images/basketball-reference-inconsistent.png"/></center><br>
+            <p>All in all, these inconsistencies made me add ~175 lines of pure Python dictionaries just to map players to the correct pages.</p>
+            <p>Once I figured out all these exceptions and started scraping the basketball-references pages successfully, I appended all of this data to the pandas DataFrame. Now with a ton of data, <span class="step-text">Step 3</span> was to do some preliminary analysis using <a href="https://matplotlib.org">matplotlib</a>. I wrote some extremely basic scatter plot functionality with two stats along the axes. Below, I graphed high school recruiting rankings by college win shares to see if there was any clear visual indication that higher recruits lead to more wins.</p>
+            <br><center><img class="blog-pic" src="../images/matplotlib-graph.png"/></center><br>
+            <p>For <span class="step-text">Step 4</span>, I actually get to the machine learning models. Now, just as a disclaimer, I learned everything I've known about machine learning through this project. I have never taken an ML class or done any other project in this field, so a lot of this was my best guess.</p>
+            <p>In order to get the model ready, there's a lot I had to do to prep the data.</p>
+            <ol>
+              <li>Fill in all the missing advanced stats with average values for the row (which is another potential pitfall with the model)</li>
+              <li>Separate the 2020 NBA Draft prospects from the drafted prospects. The ~1100 drafted prospects become our X (independent) dataset, and the 2020 prospects become the Y (dependent) dataset. Basically, I use X to predict Y.</li>
+              <li>Come up with a binary classification of an NBA player to tell the model. I came up with a simple algorithm to determine if a prospect was an NBA player based on games & minutes played depending on number of seasons played.</li>
+              <li>Decide what stats to pass in the model to make predictions. I settled on some of the more advanced stats (ORTG, WS, BPM, TS%, AST/TOV, etc) without any traditional box score/counting stats.</li>
+              <li>Most importantly, separate the X dataset into the train and test datasets. After some tinkering (and <a href="https://stackoverflow.com/questions/13610074/is-there-a-rule-of-thumb-for-how-to-divide-a-dataset-into-training-and-validatio">googling</a>), I settled on 75/25 as the train/test split as that seemed to align with better accuracy for both models. The picture below explains what that means in greater detail.</li>
+            </ol>
+            <br><center><img class="blog-pic" src="../images/train_test_split_diagram.png"/></center><br>
+            <p>Now, onto the models. The first model I experimented with was a simplistic Logistic Regression model from <a href="https://scikit-learn.org/stable/">scikit-learn</a>. I passed in two parameters to the constructor, one the changes the solver to <code>liblinear</code> because that is <a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html">apparently better for smaller datasets</a>, and a higher number of iterations to (hopefully) make the model more accurate.</p>
+            <code>logreg = LogisticRegression(solver='liblinear', max_iter=500)</code>
+            <p>After fitting the training data to our <code>liblinear</code> model, I were able to run the model and make some predictions. As you can see in the image below, the model hovered around 70% accuracy with 67% precision.</p>
+            <br><center><img class="blog-pic" src="../images/logistic-regression-metrics.png"/></center><br>
+            <p>Because the classification stuff for machine learning models can be a little complex, I'll try to explain what all these metrics mean. The coefficients at the very top of the picture are exactly as they sound: coefficients for each variable that lead to the results. That means for this version of the model, Win Shares/40 were positively correlated with a successful NBA career, and Free Throw Rate was negatively correlated.</p>
+            <p>To contextualize some of these numbers, 70.3% accuracy simply means that 70.3 of the predictions made by the model were correct. In the image below, I show the formula as (TP + TN) / Total. This is just True Positive predictions (players the model predicted to be in the NBA that actually were) + True Negative predictions (players the model correctly predicted weren't NBA players) divided by the total number of predictions made. Recall and Precision are described similarly in the picture.</p>
+            <br><center><img class="blog-pic" src="../images/logistic-regression-confusion-matrix.png"/></center><br>
+            <p>Loss, to my best understanding from reading <a href="https://stackoverflow.com/questions/34518656/how-to-interpret-loss-and-accuracy-for-a-machine-learning-model">this stackoverflow answer</a>, is just a summation of the errors made in the training set. I don't know what exactly defines an error, but I know that the goal is to reduce loss for the model.</p>
+            <p>The confusion matrix is best described through the picture. Basically, it's just a simple visual classification of the results of the prediction.</p>
+            <p>Okay, that's the explanation of the logistic regression model. <a href="https://www.tensorflow.org/overview/">Tensorflow</a> is a more complex machine learning algorithm that defines and trains neural networks. A <a href="https://www.ibm.com/cloud/learn/neural-networks">neural network</a> is basically a machine learning model that creates and utilizes nodes in a way similar to a brain's neurons. Because the tensorflow model is very different than the simpler regression model, I need to normalize the data in the way the model can understand it.</p>
+            <code>normed_x_train = normalize(x_train, x_train.describe().transpose())<br>normed_x_test = normalize(x_test, x_test.describe().transpose())</code><br><br>
+            <p>What the above code snippet does, to my best understanding, is make the data more meaningful. <a href="https://www.import.io/post/what-is-data-normalization-and-why-is-it-important/">Normalization</a> gives the model context it wouldn't have otherwise. For example, the low/high-ends of True Shooting % of these prospects are 40% aand 80%, respectively. Whereas other stats like Offensive Rating, are between 80-120. It makes it extremely difficult for a good model to sensibly be able to understand the nuance with those numbers if you don't normalize the data to compare it to the standard deviation/mean.</p>
+            <code>def normalize(val, stats):<br>&nbsp;&nbsp;&nbsp;&nbsp;val = (val - stats['mean']) / stats['std']<br>&nbsp;&nbsp;&nbsp;&nbsp;return val</code><br><br>
+            <p>The stats are now <i>officially</i> in a good place. Setting up the model is equally difficult. I'll describe what the below picture means as best as I can.</p>
+            <br><center><img class="blog-pic" src="../images/tensorflow_model_code.png"/></center><br>
+            <ul>
+              <li><a href="https://keras.io/about/">Keras</a> is a deep learning API that runs with Tensorflow. Here, I am using <code>keras.Sequential</code> to group a linear stack of layers. Honestly, I'm still not exactly sure what that means, but it seemed like it was the easiest to setup.</li>
+              <li><code>NODE_COUNT</code> is a constant here that is equal to 32. I am creating two layers of 32 nodes because that's what I found worked best for the model through <a href="https://machinelearningmastery.com/how-to-configure-the-number-of-layers-and-nodes-in-a-neural-network/">some Google searches</a> and experimentation. The last layer is just the output layer. The node layers work autonomously as perform some computation on whatever information is inputted into the node, and then they output to a node in the next layer.</li>
+              <li>The parameters are equally confusing. <code>relu</code> activation means.... <a href="https://en.wikipedia.org/wiki/Rectifier_(neural_networks)">I'm not sure honestly</a>. It was just by far the most popular activation parameter for Keras layers. <code>Sigmoid</code> activation, on the other hand, is an easy way to pipe the output to one value between 0-1.</li>
+              <li>The compilation of the model just outputs the desired metrics. The <code>loss</code> parameter stands for "Mean Squared Error," which is the default way to ouput the loss metric. The optimizer parameter of <code>adam</code> was chosen because it <a href="https://www.dlology.com/blog/quick-notes-on-how-to-choose-optimizer-in-keras/">works well with little tuning of the parameters of the model</a>. Finally, I add in the output metrics I care about.</li>
+            </ul>
+            <p>After clarifying the model, I have to choose how many iterations the model will run for. If you recall, I ran the logistic regression model for 5000 iterations. With tensorflow, I choose 50 iterations. This is because if you run the tensorflow model for too many iterations, you risk over-fitting the model. This means that the model gets <i>more</i> accurate on the training data, but <i>less</i> accurate for its predictions on the test data.</p>
+            <p>And now, to the tensorflow metrics.</p>
+            <br><center><img class="blog-pic" src="../images/tensorflow-confusion-matrix.png"/></center><br>
+            <p>Okay, the results are pretty clear to me... the tensorflow neural network model is <i>worse</i> than the logistic regression model. There isn't a significant difference, but I'm surprised. I definitely screwed up somewhere along the way running the tensorflow model, so that's why I would imagine a more simplistic logistic regression model is outperforming a neural network.</p>
+            <h3>So the metrics are clear. Now who specifically did the model like?</h3><br>
+            <p>Overall, for reasons I will get to, the models <i>loved</i> big men. The models gave some of the highest likelihoods of NBA success to <a href="https://www.basketball-reference.com/players/s/stewais01.html">Isaiah Stewart</a>, <a href="https://www.basketball-reference.com/players/a/azubuud01.html">Udoka Azubuike</a>, and <a href="https://www.basketball-reference.com/players/t/toppiob01.html">Obi Toppin</a>. These guys all have better odds of being NBA players, according to the models, than consensus lottery picks <a href="https://www.basketball-reference.com/players/e/edwaran01.html">Anthony Edwards</a> and <a href="https://www.basketball-reference.com/players/h/halibty01.html">Tyrese Haliburton</a>.</p>
+            <p>The models, however, did do a good job at explicitly weeding out the players who weren't NBA caliber. NBADraft.net thought <a href="https://www.sports-reference.com/cbb/players/steven-enoch-1.html">Steven Enoch</a>, <a href="https://www.sports-reference.com/cbb/players/mustapha-heron-1.html">Mustapha Heron</a>, and <a href="https://www.sports-reference.com/cbb/players/anton-watson-1.html">Anton Watson</a> were NBA prospects, but the models definitely did not.</p>
+            <p>Some other notables from tensorflow (the full results can be found <a href="https://github.com/JasonG7234/NBA-Draft-Model/blob/master/upcomingProspects.csv">here</a>): </p>
+            <ul>
+              <li>Anthony Edwards finished with a 26% chance of being an NBA guy.</li>
+              <li>In true fashion, the models liked another big man: <a href="https://www.basketball-reference.com/players/o/okongon01.html">Onyeka Okongwu</a>, at 61%.</li>  
+              <li>Some other sleepers of the model were <a href="https://www.sports-reference.com/cbb/players/tre-jones-1.html">Tre Jones</a>, <a href="https://www.sports-reference.com/cbb/players/jalen-smith-1.html">Jalen Smith</a>, and <a href="https://www.sports-reference.com/cbb/players/corey-kispert-1.html">Corey Kispert</a>.</li>
+            </ul>
+            <h3>Well your models didn’t perform that well. How can you improve them?</h3><br>
+            <p>I’m glad you asked! There’s a <b>LOT</b> that can be improved. Here are three ideas I have been toying around with recently:
+            <ol>
+              <li>Equalize the playing field for different positions. Obviously,  there is some strange bias towards big men, and I think that is related to some of the stats I pass into the models. I thought I had stats that evened the positional playing field, but I guess I can be doing that better.</li>
+              <li>Support more stats. Adding age and wingspan would definitely help contextualizing some prospect profiles.</li>
+              <li>Increase sample size. Sadly, this isn’t something I can feasibly do, but adding more prospects will make the model more and more accurate.</li>
+            </ol>
+            <p>So that’s all I got. All the code I wrote can be found <a href="https://github.com/JasonG7234/NBA-Draft-Model">here</a> if you want to dive in. I am <b>VERY</b> open to hearing feedback if anyone has any. I know there’s a lot of work I can do to improve this model, but I don’t think I will right now. I’m happy with all the knowledge I’ve gained.</p>
+            <h3> I hope I lived up to my self-proclaimed billing on an NBA Draft guru. </h3><br>
+            <p>Thanks for reading!</p>
+          </div><!-- /.blog_post -->
+        </div>
+      </div>
+    </div>
+    </main>
+	<footer id="projects_footer">Got any questions? Feel free to <a href="../contact.html">shoot me a message</a>.<br>
+    This blog format was templated from <a href="https://codepen.io/msatlewal/pen/MEPLLw">this link.</a></footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js" integrity="sha512-iceXjjbmB2rwoX93Ka6HAHP+B76IY1z0o3h+N1PeDtRSsyeetU3/0QKJqGyPJcX63zysNehggFwMC/bi7dvMig==" crossorigin="anonymous"></script>
+  </body>
+</html>
