@@ -575,6 +575,9 @@ a#big_board:visited {
 	.blog-pic {
 		width: 20vh;
 	}
+	.blog-pic-large {
+		width: 25vh;
+	}
 }
 @media screen and (min-width: 370px) {
 	h1 {
@@ -600,6 +603,9 @@ a#big_board:visited {
 	}
 	.blog-pic {
 		width: 30vh;
+	}
+	.blog-pic-large {
+		width: 35vh;
 	}
 
 }
@@ -633,6 +639,9 @@ a#big_board:visited {
 	}
 	.blog-pic {
 		width: 60vh;
+	}
+	.blog-pic-large {
+		width: 70vh;
 	}
 }
 @media screen and (min-width: 670px) {
@@ -681,6 +690,9 @@ a#big_board:visited {
 	}
 	.blog-pic {
 		width: 50vh;
+	}
+	.blog-pic-large {
+		width: 60vh;
 	}
 }
 @media screen and (max-width: 670px) {
