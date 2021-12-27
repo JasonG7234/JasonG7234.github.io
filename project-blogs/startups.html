@@ -79,13 +79,13 @@
             <h2 class="blog_post_title">What is it like working at an early-stage startup?</h2>
             <p class="blog_post_meta">October 31, 2021</p>
             <p>As a computer nerd, I genuinely love programming. I love to think analytically and solve complex problems and create a product from scratch.</p>
-            <p>Working full-time at iCIMS didn't really scratch enough of that itch for me. Sure, I was writing code and solving problems, but I always wanted to be doing more.</p>
-            <p>I would spend weekends working on silly projects, like <a href="gambling-bot.html">creating a sports gambling bot</a>, building a camera, or trying to algorithmically profit off of NFTs, I wanted to create more on my own terms. 
+            <p>Working full-time at <a href="https://www.icims.com/">iCIMS</a> didn't really scratch enough of that itch for me. Sure, I was writing code and solving problems, but I always wanted to be doing more.</p>
+            <p>I would spend weekends working on silly projects, like <a href="gambling-bot.html">creating a sports gambling bot</a>, building a camera, or trying to algorithmically profit off of stocks. However, this didn't fulfill me quite the way I was looking for. I wanted to create more on my own terms. 
             <p>One afternoon when I was scrolling through <a href="https://twitter.com/MilosTeodopesic">twitter</a> when I came across the tweet below.</p>
             <center><blockquote class="twitter-tweet"><p lang="en" dir="ltr">ShotQuality is looking for a part time web developer/software dev passionate about basketball and has experience working with account/user management, if you are interested DM me or reach out to simon@shotquality.com<br><br>Thanks 🙏</p>&mdash; ShotQuality (@Shot_Quality) <a href="https://twitter.com/Shot_Quality/status/1414610007618953224?ref_src=twsrc%5Etfw">July 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center><br />
             <h3>At that moment, I felt like I finally found an opportunity for me.</h3><br />
-            <p>I had heard about ShotQuality before and had seen them retweeted onto my timeline. Their goal is to contextualize shot attempts for each basketball team in unique and powerful ways. For example, how much more efficient is a Kevin Durant shot attempt compared to a Lebron James shot attempt? (~5 games into the 2021-2022 season, the answer is 0.18 points per possession)</p>
-            <p>I had looked into the site at the time , saw some little tidbits of stats that weren't behind a paywall, and thought it was cool. And I thought that was that.</p>
+            <p>I had heard about <a href="https://shotquality.com/">ShotQuality</a> before and had seen them retweeted onto my timeline. Their goal is to contextualize shot attempts for each basketball team in unique and powerful ways. For example, how much more efficient is a Kevin Durant shot attempt compared to a Lebron James shot attempt? (~5 games into the 2021-2022 season, the answer is 0.18 points per possession)</p>
+            <p>I had looked into the site at the time, saw some little tidbits of stats that weren't behind a paywall, and thought it was cool. And I thought that was that.</p>
             <center><img class="blog-pic" src="../images/project-blogs/startups/shotquality-homepage.png"/ alt="shotquality homepage"></center><br />
 			<p>After seeing the tweet, I sent in my resume through email and twitter DM. I didn't know what was going to happen, if anything, but I figured I'd give it a shot.</p>
 			<p>Shortly after sending, I had a 30 minute meeting scheduled with Simon, the founder and CEO of ShotQuality.</p>
@@ -96,7 +96,11 @@
 			<p>The hourly Python scrapers are large singular files in dire need of refactoring. A large majority of the data analysis is done in a proprietary R file that is over 13 thousand lines long, and then are saved in 25 different csv files per game.</p>
 			<center><img class="blog-pic" src="../images/project-blogs/startups/r-code-length.png"/ alt="r code length"></center><br />
 			<p>As a physical learner, I knew I learned best by diving right in. While I was a little overwhelmed by a new tech stack and massive files, I needed a project to start with to get my footing.</p>
-		  </div><!-- /.blog_post -->
+			<p>My first project was to automate account creation on payment through <a href="https://stripe.com/">Stripe</a>, a popular online payment processor. Basically, whenever a coach or fan completed & paid their invoice, there should be an account created with an email sent to reset their password.</p>
+			<p>Ultimately, the task wasn't too hard. Stripe has wonderful API documentation, making the process a breeze. I just created a webhook for <code>invoice.paid</code> events, and wrote some Python code to create accounts based on information in the event. The below picture is a very small snippet, without revealing any secrets of the trade.</p>
+			<center><img class="blog-pic" src="../images/project-blogs/startups/stripe-automation.png"/ alt="stripe automation"></center><br />
+			
+		</div><!-- /.blog_post -->
         </div>
       </div>
     </div>
