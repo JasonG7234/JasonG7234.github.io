@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-M96NVP2DZ7"></script>
@@ -22,7 +22,7 @@
 		<a href="../index.html">
 			<img id="logo" src="../images/icon.png" alt="logo">
 		</a>
-		<nav id="nav">
+		<nav id="nav" aria-label="header-nav">
 			<a href="../about.html" class="internal_links">About</a>
 			<a href="../resume.html" class="internal_links">Resume</a>
             <a href="../projects.html" class="internal_links">Projects</a>
@@ -31,7 +31,7 @@
 		</nav>
 	</header>
 	<header id="header-2">
-		<nav class="navbar custom-toggler">
+		<nav class="navbar custom-toggler" aria-label="mobile-header">
 			<a href="../index.html">
 				<img id="logo" src="../images/icon.png" alt="logo">
 			</a>
@@ -87,20 +87,33 @@
             <p>I had heard about <a href="https://shotquality.com/">ShotQuality</a> before and had seen them retweeted onto my timeline. Their goal is to contextualize shot attempts for each basketball team in unique and powerful ways. For example, how much more efficient is a Kevin Durant shot attempt compared to a Lebron James shot attempt? (~5 games into the 2021-2022 season, the answer is 0.18 points per possession)</p>
             <p>I had looked into the site at the time, saw some little tidbits of stats that weren't behind a paywall, and thought it was cool. And I thought that was that.</p>
             <center><img class="blog-pic" src="../images/project-blogs/startups/shotquality-homepage.png"/ alt="shotquality homepage"></center><br />
-			<p>After seeing the tweet, I sent in my resume through email and twitter DM. I didn't know what was going to happen, if anything, but I figured I'd give it a shot.</p>
-			<p>Shortly after sending, I had a 30 minute meeting scheduled with Simon, the founder and CEO of ShotQuality.</p>
-			<h3>And after the talking through skills and requirements at that meeting, I was officially a developer consultant with ShotQuality.</h3><br />
-			<p>Things happened really fast after that. I joined the company Slack, I was added to all the weekly check-in meetings, and was told to get familiar with the codebase before I started my projects.</p>
-			<h3>And let me tell you - the codebase was a MESS.</h3><br />
-			<p>The stack is a pretty simple REACT frontend and then a Python flask API backend. Flask handles all of the profile creation and user data, whereas all of the data is created through hourly python scrapers and then accessible through API endpoints.</p>
-			<p>The hourly Python scrapers are large singular files in dire need of refactoring. A large majority of the data analysis is done in a proprietary R file that is over 13 thousand lines long, and then are saved in 25 different csv files per game.</p>
-			<center><img class="blog-pic" src="../images/project-blogs/startups/r-code-length.png"/ alt="r code length"></center><br />
-			<p>As a physical learner, I knew I learned best by diving right in. While I was a little overwhelmed by a new tech stack and massive files, I needed a project to start with to get my footing.</p>
-			<p>My first project was to automate account creation on payment through <a href="https://stripe.com/">Stripe</a>, a popular online payment processor. Basically, whenever a coach or fan completed & paid their invoice, there should be an account created with an email sent to reset their password.</p>
-			<p>Ultimately, the task wasn't too hard. Stripe has wonderful API documentation, making the process a breeze. I just created a webhook for <code>invoice.paid</code> events, and wrote some Python code to create accounts based on information in the event. The below picture is a very small snippet, without revealing any secrets of the trade.</p>
-			<center><img class="blog-pic" src="../images/project-blogs/startups/stripe-automation.png"/ alt="stripe automation"></center><br />
-			
-		</div><!-- /.blog_post -->
+						<p>After seeing the tweet, I sent in my resume through email and twitter DM. I didn't know what was going to happen, if anything, but I figured I'd give it a shot.</p>
+						<p>Shortly after sending, I had a 30 minute meeting scheduled with Simon, the founder and CEO of ShotQuality.</p>
+						<h3>And after the talking through skills and requirements at that meeting, I was officially a developer consultant with ShotQuality.</h3><br />
+						<p>Things happened really fast after that. I joined the company Slack, I was added to all the weekly check-in meetings, and was told to get familiar with the codebase before I started my projects.</p>
+						<h3>And let me tell you - the codebase was a MESS.</h3><br />
+						<p>The stack is a pretty simple REACT frontend and then a Python flask API backend. Flask handles all of the profile creation and user data, whereas all of the data is created through hourly python scrapers and then accessible through API endpoints.</p>
+						<p>The hourly Python scrapers are large singular files in dire need of refactoring. A large majority of the data analysis is done in a proprietary R file that is over 13 thousand lines long, and then are saved in 25 different csv files per game.</p>
+						<center><img class="blog-pic" src="../images/project-blogs/startups/r-code-length.png"/ alt="r code length"></center><br />
+						<p>As a physical learner, I knew I learned best by diving right in. While I was a little overwhelmed by a new tech stack and massive files, I needed a project to start with to get my footing.</p>
+						<p>My first project was to automate account creation on payment through <a href="https://stripe.com/">Stripe</a>, a popular online payment processor. Basically, whenever a coach or fan completed & paid their invoice, there should be an account created with an email sent to reset their password.</p>
+						<p>Ultimately, the task wasn't too hard. Stripe has wonderful API documentation, making the process a breeze. I just created a webhook for <code>invoice.paid</code> events, and wrote some Python code to create accounts based on information in the event. The below picture is a very small snippet, without revealing any secrets of the trade.</p>
+						<center><img class="blog-pic" src="../images/project-blogs/startups/stripe-automation.png"/ alt="stripe automation"></center><br />
+						<h3>After completing this project, I realized what makes a startup company a lot different than an enterprise SaaS company.</h3><br />
+						<p>Usually, after completing a task, at enterprise companies there is a whole testing pyramid to complete to reach "definition of done," a term to represent total completeness. This includes unit testing, integration testing, and manual testing by another developer, and then regression testing before monthly releases. All in all, this process takes about an extra week in addition to the development work.</p>
+						<p>At ShotQuality, there was ZERO testing. There was a strong emphasis on speed of development work, and not nearly as strong of an emphasis on reliability. In fact, there did not exist any testing frameworks, issue tracking systems, branching strategies, commit syntax, etc.</p>
+						<h3>We had zero programming paradigms or best practices. I knew that there was a lot of opportunity there.</h3><br />
+						<p>Here is a list of some of the systems I implemented:</p>
+						<ul>
+              <li>To start, I felt like I needed to implement some unit testing framework. Looking into the options, seemed like <a href="https://docs.pytest.org/en/6.2.x/">pytest</a> had the biggest userbase and the most documentation. I added unit tests for the Stripe automation ticket, and advised the same to be done for all future backend changes (although that doesn't always happen).</li>
+              <li>I followed in the footsteps of iCIMS best practices and instituted <a href="https://www.conventionalcommits.org/en/v1.0.0/">Conventional Commit</a> message specification to have uniform commits.</li>
+              <li>As we speak, I have been pushing <a href="https://trunkbaseddevelopment.com/branch-for-release/">trunk-based development</a> for monthly release branches & regression cycles. Nothing has changed yet in that regard, but hopefully down the line.</li>
+              <li>We have been moving towards ticket-based task management, albeit inconsistently. I advocated for <a href="https://www.notion.so/">Notion</a>, but we are currently using <a href="https://trello.com/en-US">Trello</a>.</li>
+							<li>I have documented all of the above & other more ShotQuality specific solutions in the GitHub's <a href="https://www.makeareadme.com/">README</a>.</li>
+            </ul>
+						<center><img class="blog-pic" src="../images/project-blogs/startups/shotquality-coding-practices.png"/ alt="new shotquality best practices"></center><br />
+						<p>Talk about crunch, working odd hours, meeting people, working on the scrapers.
+					</div><!-- /.blog_post -->
         </div>
       </div>
     </div>
