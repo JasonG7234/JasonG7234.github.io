@@ -388,6 +388,22 @@ main {
 .step-text {
 	color: red;
 }
+#divider {
+	background-color: white;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+figcaption {
+	text-align: center;
+	color: gray;
+	font-size: 10px;
+	margin-top: -2%;
+}
+blockquote {
+	border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
 
 /* NBA Draft Folder */
 #header-3, #header-4 {
