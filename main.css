@@ -388,6 +388,10 @@ main {
 .step-text {
 	color: red;
 }
+hr {
+	color: white;
+	background-color: white;
+}
 #divider {
 	background-color: white;
 	margin-top: 15px;
@@ -396,7 +400,7 @@ main {
 figcaption {
 	text-align: center;
 	color: gray;
-	font-size: 10px;
+	font-size: 14px;
 	margin-top: -2%;
 }
 blockquote {
