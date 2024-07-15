@@ -26,7 +26,7 @@ for(var n=0; n<x.children.length; n++) {
             var h = window.innerHeight;
             var mousemoveHandler;
             document.addEventListener('mousemove', mousemoveHandler  = function(e) {
-                console.log(e.pageX, e.pageY);
+                //console.log(e.pageX, e.pageY);
                 c.style.top = (e.pageY / h)*100 + "%"
             })
             document.addEventListener('mouseup', function(e) {
