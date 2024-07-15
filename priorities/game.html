@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-M96NVP2DZ7"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+  		gtag('config', 'G-M96NVP2DZ7');
+	</script>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Priorities</title>
+	<link rel="icon" href="https://blog-cdn.everhour.com/blog/wp-content/uploads/2020/12/Priorities-management.jpg">
+	<link type="text/css" rel="stylesheet" href="main.css"/>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+	<style>
+        html{
+            font-family: 'Open Sans', sans-serif;
+            height: 100vh;
+        }
+        body {
+            min-height: 100%;
+            margin: 0px;
+			height:100%;
+		  }
+		  
+		  .container {
+			width: 100%;
+			height: 100vh;
+			min-height: 100%;
+			text-align: center;
+		  }
+		  
+		  .draggable {
+			position: absolute;
+            border-radius: 5px;
+			width: 18%;
+			height: 200px;
+			text-align: center;
+			margin: 10px;
+			background-color: #4986ee;
+			font-size: 42px;
+			float: left;
+			cursor: grab;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}	
+	</style>
+</head>
+<body id="home" class="body">
+	<div id="all" class="container">
+		<div id="rectangle1" class="draggable" style="position: fixed;
+		top: 40%; left: 81%;"></div>
+		<div id="rectangle2" class="draggable" style="position: fixed;
+		top: 40%; left: 61%;"></div>
+		<div id="rectangle3" class="draggable" style="position: fixed;
+		top: 40%; left: 41%;"></div>
+		<div id="rectangle4" class="draggable" style="position: fixed;
+		top: 40%; left: 21%;"></div>
+		<div id="rectangle5" class="draggable" style="position: fixed;  
+		top: 40%; left: 1%;"></div>
+	</div>
+	<script type="text/javascript" src="priorities.js"></script>
+</body>
+</html>
