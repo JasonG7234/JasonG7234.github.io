@@ -35,6 +35,7 @@
 		  .draggable {
 			position: absolute;
             border-radius: 5px;
+            color: white;
             margin: 0;
 			width: 17%;
 			height: 200px;
@@ -48,6 +49,13 @@
 			justify-content: center;
             user-select: none;
 		}	
+
+        @media only screen and (max-width: 480px) {
+           .draggable {
+                height: 10%;
+                font-size: 12px;
+           }
+          }
 	</style>
 </head>
 <body id="home" class="body">
