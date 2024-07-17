@@ -35,3 +35,21 @@ for(var n=0; n<x.children.length; n++) {
         })
     })(x.children[n])
 }
+
+
+for(var n=0; n<x.children.length; n++) {
+    ;(function(c) {
+        c.addEventListener('touchstart', function(e) {
+            this.style.position = 'fixed'
+            var h = window.innerHeight;
+            var mousemoveHandler;
+            document.addEventListener('touchmove', mousemoveHandler  = function(e) {
+                //console.log(e.touches[0].clientX, e.touches[0].clientX);
+                c.style.top = (e.touches[0].clientY / h)*100 + "%"
+            })
+            document.addEventListener('touchend', function(e) {
+                document.removeEventListener('touchmove', mousemoveHandler)
+            })
+        })
+    })(x.children[n])
+}
