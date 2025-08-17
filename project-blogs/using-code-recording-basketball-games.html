@@ -75,7 +75,7 @@
             <div class="col-sm-8 blog_main">
                 <div class="blog_post">
                     <h2 class="blog_post_title">Hacking past a subscription service to download my basketball games</h2>
-                    <p class="blog_post_meta">October 13, 2024</p>
+                    <p class="blog_post_meta">August 17, 2024</p>
                     <p>In the beginning of 2024, I started coaching a 9th grade basketball team. I have been playing basketball since I was old enough to walk, and finally wanted to follow the family tradition and try to coach.</p>
                     <p>I instantly fell in love with it. Admittedly, my teams didn't have much success in the beginning, starting on a 17-game losing streak with me as the active head coach. No, that's not a joke. 17 games.</p>
                     <br><center><img class="blog-pic" src="../images/project-blogs/hacking-onlysports-subscription/coaching-twitter-meme.png"/></center><br>
@@ -93,14 +93,13 @@
                     <p>I thought on it for a little while and figured that OnlySports was a good candidate for poking around. I knew it was a newer service and I was pretty frustrated with the price point, so I hoped I'd be able to hack something together.</p>
                     <p>Let's start out with the use case. The day after every game, I'd log into the OnlySports site and find the video with the game. Then, I'd screen record the game from my computer & upload it to YouTube.</p>
                     <br><center><img class="blog-pic" src="../images/project-blogs/hacking-onlysports-subscription/onlysports-video-page.png"/></center><br>
-                    <p>So, as a software engineer, I opened Chrome's Dev Tools to check the HTML layout. I clicked the element selector tool (circled before) to select just the video within the HTML: </p>
+                    <p>So, as a software engineer, I opened Chrome's Dev Tools to check the HTML layout. I clicked the element selector tool (circled in the screenshot above) to select just the video within the HTML: </p>
                     <code>&lt;video _ngcontent-ook-c173="" playsinline="playsinline" ref="video" class="vjs-tech" id="vjs_video_3_html5_api" tabindex="-1" preload="metadata" src="https://1733451806.rsc.cdn77.org/msccjb/2d6d6287-d824-4c8b-b2ee-4900241f9187/2d6d6287-d824-4c8b-b2ee-4900241f9187_original.mp4"&gt;&lt;/video&gt;</code><br/><br/>
                     <p>That <code>src</code> tag is the most useful, as it is the underlying video file. In this case, the src URL is a specific CDN, or content delivery network, that is hosting the video file. The purpose of CDNs in the networking infrastructure is beyond the point of this post, but think of it as a faster way to deliver data to specific regions. Regardless, the CDN host has what appears to be some random integers in <code>1733451806</code> and then again in <code>cdn77</code>. At the end of the URL is a <a href="https://en.wikipedia.org/wiki/Universally_unique_identifier">GUID</a>, which seems to represent the video id (starting with 2d6).</p>
                     <p>Doing the same process for a couple more videos, I found out that the URL changed <i>but only in terms of the id</i>. Going back multiple days at multiple times, the CDN host was exactly the same. This means that theoretically, if I could find a video's id without an account, I should be able to navigate directly to the CDN to download the video.</a></p>
                     <p>In an incognito window, I went to the OnlySports homepage. I was able to navigate to the same video as I used above, but this time I was met with a different view. </a></p>
                     <br><center><img class="blog-pic" src="../images/project-blogs/hacking-onlysports-subscription/onlysports-video-incognito-page.png"/></center><br>
-                    <p>Of course, I have to have a subscription to view the video. </p>
-                    <p>However, as you can see highlighted in the Dev Tools window, we do get an <code>img</code> element that includes the GUID from previously. With this in mind, we feasibly can bypass this subscription service and still access the videos!</p>
+                    <p>Of course, I have to have a subscription to view the video. However, as you can see highlighted in the Dev Tools window, we do get an <code>img</code> element that includes the GUID from previously. With this in mind, we feasibly can bypass this subscription service and still access the videos!</p>
                     <hr>
                     <h3>So, let's summarize the method here.</h3><br/>
                     <ol>
@@ -135,7 +134,6 @@
                     <p>On one hand, I despise all of the unnecessary subscriptions that exist today, and all of the ways in which </p>
                     <p>But the reason, to me, why I hate subscription services is become companies are capitalistic and want to squeeze every dollar out of the consumer. If I don't report this vulnerability, and instead profit off it, would I not be guilty of the same thing? </p>
                     <h3>In the end, after all this introspection, I reported the vulnerability to OnlySports.live.</h3><br />
-
                 </div><!-- /.blog_post -->
             </div>
         </div>
