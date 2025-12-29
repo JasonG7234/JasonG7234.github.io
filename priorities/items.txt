@@ -63,10 +63,13 @@ Puppies
 Frank Sinata
 Bruce Lee
 Doing the dishes
+Barbie
 Hello Fresh
 Robert Downey Jr.
 Tom Hanks
 Timothee Chalamet
+Taylor Swift
+Beyonce
 The Rock
 Rock climbing
 Pokemon
@@ -223,3 +226,4 @@ Your neighbors
 Airpods
 Espresso martinis
 Cozy blankets
+Stranger Things
