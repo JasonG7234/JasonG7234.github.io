@@ -1,0 +1,71 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { 
+        "type": "Point", 
+        "coordinates": [-74.36290956262684, 40.54112442867156]
+      },
+      "properties": { 
+        "name": "Metuchen Plaza",
+        "my-icon": "town_hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { 
+        "type": "Point", 
+        "coordinates": [-74.36123728837856, 40.541865990501]
+      },
+      "properties": { 
+        "name": "FK Living",
+        "my-icon": "shop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { 
+        "type": "Point", 
+        "coordinates": [-74.36214836099055, 40.54294612212281]
+      },
+      "properties": { 
+        "name": "Runner's High",
+        "my-icon": "pitch"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { 
+        "type": "Point", 
+        "coordinates": [-74.36227241531758, 40.541566656229094]
+      },
+      "properties": { 
+        "name": "New Market",
+        "my-icon": "shop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { 
+        "type": "Point", 
+        "coordinates": [-74.36260909446165, 40.5430200403057]
+      },
+      "properties": { 
+        "name": "O P Metuchen Books",
+        "my-icon": "library"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { 
+        "type": "Point", 
+        "coordinates": [-74.36139270735887, 40.54193375080693]
+      },
+      "properties": { 
+        "name": "Cai's Cafe",
+        "my-icon": "cafe"
+      }
+    }
+  ]
+}

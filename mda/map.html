@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Load Roboto font-->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Load MapLibre GL JS CSS -->
+    <link rel="preconnect" href="https://tiles.openfreemap.org">
+    <link rel="dns-prefetch" href="https://tiles.openfreemap.org">
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.css">
+
+    <!-- Load normal CSS styles-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>2026 Metuchen Holiday Map from the MDA</title>
+</head>
+
+<body>
+    <header>
+        <h1>Metuchen Downtown Alliance 2026 Holiday Map</h1>
+    </header>
+    <div id="map"></div>
+    <!-- Side Panel Popup -->
+    <div id="side-panel" class="side-panel">
+    <button id="close-btn" class="close-btn">&times;</button>
+    <div id="panel-content">
+        <h3>Click a feature to view details</h3>
+    </div>
+    </div>
+    <!-- Load MapLibre first -->
+    <script src="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js"></script>
+    <script type="importmap">
+    {
+        "imports": {
+            "@fortawesome/fontawesome-svg-core": "https://esm.sh/@fortawesome/fontawesome-svg-core@6",
+            "@fortawesome/free-solid-svg-icons": "https://esm.sh/@fortawesome/free-solid-svg-icons@6",
+            "@fortawesome/free-solid-svg-icons/": "https://esm.sh/@fortawesome/free-solid-svg-icons@6/"
+        }
+    }
+    </script>
+    
+    <!-- Then load our code -->
+    <script type="module" src="map.js"></script>
+
+</body>
+</html>
