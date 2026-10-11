@@ -20,7 +20,9 @@
       },
       "properties": { 
         "name": "FK Living",
-        "my-icon": "shop"
+        "my-icon": "shop",
+        "description": "Fawcett & Kind Living is an independent gift shop rooted in New York and London design.",
+        "tags": "gifts, books, home decor, jewelry, accessories"
       }
     },
     {
