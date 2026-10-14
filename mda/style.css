@@ -177,8 +177,12 @@ header h1 {
 }
 
 
-.actions button {
+.actions .action-btn {
     flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     min-height: 42px;
 
@@ -194,12 +198,14 @@ header h1 {
 
     color: #333;
 
+    text-decoration: none;
+
     cursor: pointer;
 
     transition: background 0.15s ease, border-color 0.15s ease;
 }
 
-.actions button:hover {
+.actions .action-btn:hover {
     background: #f4f6f8;
 
     border-color: #c7cdd4;

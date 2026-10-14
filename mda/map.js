@@ -79,9 +79,9 @@ map.on("load", async () => {
 
     // Show retailer information when clicked
     map.on("click", "retailers", (event) => {
-        const properties = event.features[0].properties;
+        const feature = event.features[0];
 
-        showRetailerPanel(properties);
+        showRetailerPanel(feature.properties, feature.geometry.coordinates);
     });
 
 });

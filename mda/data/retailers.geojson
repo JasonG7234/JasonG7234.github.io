@@ -3,70 +3,156 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": { 
-        "type": "Point", 
-        "coordinates": [-74.36290956262684, 40.54112442867156]
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.36290956262684,
+          40.54112442867156
+        ]
       },
-      "properties": { 
+      "properties": {
         "name": "Metuchen Plaza",
-        "my-icon": "town_hall"
+        "my-icon": "town_hall",
+        "phone": "+17325550101",
+        "website": "https://example.com/metuchen-plaza"
       }
     },
     {
       "type": "Feature",
-      "geometry": { 
-        "type": "Point", 
-        "coordinates": [-74.36123728837856, 40.541865990501]
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.36125858561873,
+          40.541729788907595
+        ]
       },
-      "properties": { 
+      "properties": {
         "name": "FK Living",
         "my-icon": "shop",
         "description": "Fawcett & Kind Living is an independent gift shop rooted in New York and London design.",
-        "tags": "gifts, books, home decor, jewelry, accessories"
+        "tags": "gifts, books, home decor, jewelry, accessories",
+        "phone": "+17325124848",
+        "website": "https://fkliving.com"
       }
     },
     {
       "type": "Feature",
-      "geometry": { 
-        "type": "Point", 
-        "coordinates": [-74.36214836099055, 40.54294612212281]
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.36214836099055,
+          40.54294612212281
+        ]
       },
-      "properties": { 
+      "properties": {
         "name": "Runner's High",
-        "my-icon": "pitch"
+        "my-icon": "pitch",
+        "phone": "+17325550103",
+        "website": "https://example.com/runners-high"
       }
     },
     {
       "type": "Feature",
-      "geometry": { 
-        "type": "Point", 
-        "coordinates": [-74.36227241531758, 40.541566656229094]
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.36227241531758,
+          40.541566656229094
+        ]
       },
-      "properties": { 
+      "properties": {
         "name": "New Market",
-        "my-icon": "shop"
+        "my-icon": "shop",
+        "phone": "+17325550104",
+        "website": "https://example.com/new-market"
       }
     },
     {
       "type": "Feature",
-      "geometry": { 
-        "type": "Point", 
-        "coordinates": [-74.36260909446165, 40.5430200403057]
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.36260909446165,
+          40.5430200403057
+        ]
       },
-      "properties": { 
+      "properties": {
         "name": "O P Metuchen Books",
-        "my-icon": "library"
+        "my-icon": "library",
+        "phone": "+17325550105",
+        "website": "https://example.com/op-metuchen-books"
       }
     },
     {
       "type": "Feature",
-      "geometry": { 
-        "type": "Point", 
-        "coordinates": [-74.36139270735887, 40.54193375080693]
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.36139270735887,
+          40.54193375080693
+        ]
       },
-      "properties": { 
+      "properties": {
         "name": "Cai's Cafe",
-        "my-icon": "cafe"
+        "my-icon": "cafe",
+        "description": "Cai's Cafe offers delicious coffee and food, along with a cozy atmosphere, comfortable seating with outlets, and friendly staff. ",
+        "tags": "coffee, cafe, food",
+        "phone": "+17322439925",
+        "website": "https://caiscafe.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           -74.36157144610267,
+          40.541514878608695
+        ]
+      },
+      "properties": {
+        "name": "Boyt Drugs",
+        "my-icon": "pharmacy",
+        "description": "Boyt Drugs is a local brick-and-mortar pharmacy that also offers Metuchen-related gifts and various home goods.",
+        "tags": "pharmacy, health, medicine",
+        "phone": "+17325482125",
+        "website": "https://boytdrugs.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.36174472098617,
+          40.54264026831883
+        ]
+      },
+      "properties": {
+        "name": "Yestercades",
+        "my-icon": "lighthouse",
+        "description": "Yestercades is an arcade offering a variety of video games and arcade experiences.",
+        "tags": "gaming, arcade, video games",
+        "phone": "+18482954481",
+        "website": "https://yestercades.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -74.36098431472985, 
+            40.541304168498066
+        ]
+      },
+      "properties": {
+        "name": "Genus Boni",
+        "my-icon": "soccer",
+        "description": "Genus Boni is a toy store offering a variety of toys and games for children of all ages.",
+        "tags": "toys, games, children",
+        "phone": "+17323727171",
+        "website": "https://genusboni.com"
       }
     }
   ]

@@ -23,8 +23,14 @@ const dummyProducts = [
     }
 ];
 
-export function showRetailerPanel(properties) {
+export function showRetailerPanel(properties, coordinates) {
     const panelContent = document.getElementById("panel-content");
+
+    // coordinates arrive as [longitude, latitude]
+    const [lng, lat] = coordinates || [];
+    const directionsUrl =
+        `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(`${lat},${lng}`)}`;
+
     panelContent.innerHTML = `
         <div class="business-header">
             <img
@@ -47,9 +53,9 @@ export function showRetailerPanel(properties) {
         </div>
 
         <div class="actions">
-            <button>Directions</button>
-            <button>Call</button>
-            <button>Website</button>
+            <a class="action-btn" href="${directionsUrl}" target="_blank" rel="noopener">Directions</a>
+            <a class="action-btn" href="tel:${properties.phone}">Call</a>
+            <a class="action-btn" href="${properties.website}" target="_blank" rel="noopener">Website</a>
         </div>
 
         <section class="section">
