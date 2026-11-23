@@ -14,7 +14,8 @@
         "name": "Metuchen Plaza",
         "my-icon": "town_hall",
         "phone": "+17325550101",
-        "website": "https://example.com/metuchen-plaza"
+        "website": "https://example.com/metuchen-plaza",
+        "instagram": "https://www.instagram.com/metuchendowntownalliance/"
       }
     },
     {
@@ -32,7 +33,8 @@
         "description": "Fawcett & Kind Living is an independent gift shop rooted in New York and London design.",
         "tags": "gifts, books, home decor, jewelry, accessories",
         "phone": "+17325124848",
-        "website": "https://fkliving.com"
+        "website": "https://fkliving.com",
+        "instagram": "https://www.instagram.com/fkliving/"
       }
     },
     {
@@ -48,7 +50,8 @@
         "name": "Runner's High",
         "my-icon": "pitch",
         "phone": "+17325550103",
-        "website": "https://example.com/runners-high"
+        "website": "https://example.com/runners-high",
+        "instagram": ""
       }
     },
     {
@@ -64,7 +67,8 @@
         "name": "New Market",
         "my-icon": "shop",
         "phone": "+17325550104",
-        "website": "https://example.com/new-market"
+        "website": "https://example.com/new-market",
+        "instagram": ""
       }
     },
     {
@@ -80,7 +84,8 @@
         "name": "O P Metuchen Books",
         "my-icon": "library",
         "phone": "+17325550105",
-        "website": "https://example.com/op-metuchen-books"
+        "website": "https://example.com/op-metuchen-books",
+        "instagram": ""
       }
     },
     {
@@ -98,7 +103,8 @@
         "description": "Cai's Cafe offers delicious coffee and food, along with a cozy atmosphere, comfortable seating with outlets, and friendly staff. ",
         "tags": "coffee, cafe, food",
         "phone": "+17322439925",
-        "website": "https://caiscafe.com"
+        "website": "https://caiscafe.com",
+        "instagram": ""
       }
     },
     {
@@ -106,7 +112,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-           -74.36157144610267,
+          -74.36157144610267,
           40.541514878608695
         ]
       },
@@ -116,7 +122,8 @@
         "description": "Boyt Drugs is a local brick-and-mortar pharmacy that also offers Metuchen-related gifts and various home goods.",
         "tags": "pharmacy, health, medicine",
         "phone": "+17325482125",
-        "website": "https://boytdrugs.com"
+        "website": "https://boytdrugs.com",
+        "instagram": ""
       }
     },
     {
@@ -134,7 +141,8 @@
         "description": "Yestercades is an arcade offering a variety of video games and arcade experiences.",
         "tags": "gaming, arcade, video games",
         "phone": "+18482954481",
-        "website": "https://yestercades.com"
+        "website": "https://yestercades.com",
+        "instagram": ""
       }
     },
     {
@@ -142,8 +150,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-            -74.36098431472985, 
-            40.541304168498066
+          -74.36098431472985,
+          40.541304168498066
         ]
       },
       "properties": {
@@ -152,7 +160,8 @@
         "description": "Genus Boni is a toy store offering a variety of toys and games for children of all ages.",
         "tags": "toys, games, children",
         "phone": "+17323727171",
-        "website": "https://genusboni.com"
+        "website": "https://genusboni.com",
+        "instagram": ""
       }
     }
   ]

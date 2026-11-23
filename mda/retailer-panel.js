@@ -56,6 +56,7 @@ export function showRetailerPanel(properties, coordinates) {
             <a class="action-btn" href="${directionsUrl}" target="_blank" rel="noopener">Directions</a>
             <a class="action-btn" href="tel:${properties.phone}">Call</a>
             <a class="action-btn" href="${properties.website}" target="_blank" rel="noopener">Website</a>
+            ${properties.instagram ? `<a class="action-btn" href="${properties.instagram}" target="_blank" rel="noopener">Instagram</a>` : ""}
         </div>
 
         <section class="section">
