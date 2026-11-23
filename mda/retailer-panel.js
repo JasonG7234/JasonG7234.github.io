@@ -82,6 +82,12 @@ export function showRetailerPanel(properties, coordinates) {
                 `).join("")}
             </div>
         </section>
+
+        <footer class="panel-links">
+            <p>Interested in other events around Metuchen? Check our <a href="https://www.downtownmetuchen.org/calendar/" target="_blank" rel="noopener">Events</a>.</p>
+            <p>Want to see the full breakdown of all of Metuchen's holiday shopping items? Check out the <a href="https://www.downtownmetuchen.org/gift-guide-2026/" target="_blank" rel="noopener">Holiday Gift Guide</a>.</p>
+            <p>Want to directly support Metuchen businesses? Consider getting a <a href="https://www.downtownmetuchen.org/giftcard" target="_blank" rel="noopener">Downtown Metuchen gift card</a>.</p>
+        </footer>
     `;
     
     // Show the panel
