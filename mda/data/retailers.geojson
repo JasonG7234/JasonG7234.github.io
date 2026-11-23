@@ -15,7 +15,30 @@
         "my-icon": "town_hall",
         "phone": "+17325550101",
         "website": "https://example.com/metuchen-plaza",
-        "instagram": "https://www.instagram.com/metuchendowntownalliance/"
+        "instagram": "https://www.instagram.com/metuchendowntownalliance/",
+        "products": [
+          {
+            "name": "Ceramic Vase",
+            "description": "",
+            "price": "$42",
+            "image": "https://picsum.photos/seed/vase/250/170",
+            "url": ""
+          },
+          {
+            "name": "Soy Candle",
+            "description": "",
+            "price": "$28",
+            "image": "https://picsum.photos/seed/candle/250/170",
+            "url": ""
+          },
+          {
+            "name": "Wool Throw",
+            "description": "",
+            "price": "$95",
+            "image": "https://picsum.photos/seed/throw/250/170",
+            "url": ""
+          }
+        ]
       }
     },
     {
@@ -34,7 +57,30 @@
         "tags": "gifts, books, home decor, jewelry, accessories",
         "phone": "+17325124848",
         "website": "https://fkliving.com",
-        "instagram": "https://www.instagram.com/fkliving/"
+        "instagram": "https://www.instagram.com/fkliving/",
+        "products": [
+          {
+            "name": "Dusen Dusen Grasshopper Stripe Bath Towel",
+            "description": "This towel promises to work hard, unlike what you’ve heard in that parable with the Ant.",
+            "price": "$64",
+            "image": "https://i0.wp.com/www.fkliving.com/wp-content/uploads/2026/09/original-38.jpeg?fit=1500%2C1500&ssl=1",
+            "url": "https://www.fkliving.com/product/dusen-dusen-grasshopper-stripe-bath-towel/"
+          },
+          {
+            "name": "80s Pop Music Trivia",
+            "description": "You'll be digging out your old mixtapes by the end of this 80's Pop Music Trivia, with 140 multiple choice question cards.",
+            "price": "$15",
+            "image": "https://i0.wp.com/www.fkliving.com/wp-content/uploads/2026/02/original.jpeg?fit=1500%2C1500&ssl=1",
+            "url": "https://www.fkliving.com/product/80s-pop-music-trivia/"
+          },
+          {
+            "name": "Admiral Row Gold Cut-Out Hoop Earrings",
+            "description": "Hypoallergenic, gold-plated stainless-steel cut-out hoops (≈17 mm) with secure latch-backs—easy everyday wear.",
+            "price": "$36",
+            "image": "https://i0.wp.com/www.fkliving.com/wp-content/uploads/2026/02/original-45.jpeg?fit=1500%2C1500&ssl=1",
+            "url": "https://www.fkliving.com/product/admiral-row-gold-cut-out-hoop-earrings/"
+          }
+        ]
       }
     },
     {
@@ -51,7 +97,30 @@
         "my-icon": "pitch",
         "phone": "+17325550103",
         "website": "https://example.com/runners-high",
-        "instagram": ""
+        "instagram": "",
+        "products": [
+          {
+            "name": "Ceramic Vase",
+            "description": "",
+            "price": "$42",
+            "image": "https://picsum.photos/seed/vase/250/170",
+            "url": ""
+          },
+          {
+            "name": "Soy Candle",
+            "description": "",
+            "price": "$28",
+            "image": "https://picsum.photos/seed/candle/250/170",
+            "url": ""
+          },
+          {
+            "name": "Wool Throw",
+            "description": "",
+            "price": "$95",
+            "image": "https://picsum.photos/seed/throw/250/170",
+            "url": ""
+          }
+        ]
       }
     },
     {
@@ -68,7 +137,30 @@
         "my-icon": "shop",
         "phone": "+17325550104",
         "website": "https://example.com/new-market",
-        "instagram": ""
+        "instagram": "",
+        "products": [
+          {
+            "name": "Ceramic Vase",
+            "description": "",
+            "price": "$42",
+            "image": "https://picsum.photos/seed/vase/250/170",
+            "url": ""
+          },
+          {
+            "name": "Soy Candle",
+            "description": "",
+            "price": "$28",
+            "image": "https://picsum.photos/seed/candle/250/170",
+            "url": ""
+          },
+          {
+            "name": "Wool Throw",
+            "description": "",
+            "price": "$95",
+            "image": "https://picsum.photos/seed/throw/250/170",
+            "url": ""
+          }
+        ]
       }
     },
     {
@@ -85,7 +177,30 @@
         "my-icon": "library",
         "phone": "+17325550105",
         "website": "https://example.com/op-metuchen-books",
-        "instagram": ""
+        "instagram": "",
+        "products": [
+          {
+            "name": "Ceramic Vase",
+            "description": "",
+            "price": "$42",
+            "image": "https://picsum.photos/seed/vase/250/170",
+            "url": ""
+          },
+          {
+            "name": "Soy Candle",
+            "description": "",
+            "price": "$28",
+            "image": "https://picsum.photos/seed/candle/250/170",
+            "url": ""
+          },
+          {
+            "name": "Wool Throw",
+            "description": "",
+            "price": "$95",
+            "image": "https://picsum.photos/seed/throw/250/170",
+            "url": ""
+          }
+        ]
       }
     },
     {
@@ -104,7 +219,30 @@
         "tags": "coffee, cafe, food",
         "phone": "+17322439925",
         "website": "https://caiscafe.com",
-        "instagram": ""
+        "instagram": "",
+        "products": [
+          {
+            "name": "Ceramic Vase",
+            "description": "",
+            "price": "$42",
+            "image": "https://picsum.photos/seed/vase/250/170",
+            "url": ""
+          },
+          {
+            "name": "Soy Candle",
+            "description": "",
+            "price": "$28",
+            "image": "https://picsum.photos/seed/candle/250/170",
+            "url": ""
+          },
+          {
+            "name": "Wool Throw",
+            "description": "",
+            "price": "$95",
+            "image": "https://picsum.photos/seed/throw/250/170",
+            "url": ""
+          }
+        ]
       }
     },
     {
@@ -123,7 +261,30 @@
         "tags": "pharmacy, health, medicine",
         "phone": "+17325482125",
         "website": "https://boytdrugs.com",
-        "instagram": ""
+        "instagram": "",
+        "products": [
+          {
+            "name": "Ceramic Vase",
+            "description": "",
+            "price": "$42",
+            "image": "https://picsum.photos/seed/vase/250/170",
+            "url": ""
+          },
+          {
+            "name": "Soy Candle",
+            "description": "",
+            "price": "$28",
+            "image": "https://picsum.photos/seed/candle/250/170",
+            "url": ""
+          },
+          {
+            "name": "Wool Throw",
+            "description": "",
+            "price": "$95",
+            "image": "https://picsum.photos/seed/throw/250/170",
+            "url": ""
+          }
+        ]
       }
     },
     {
@@ -142,7 +303,30 @@
         "tags": "gaming, arcade, video games",
         "phone": "+18482954481",
         "website": "https://yestercades.com",
-        "instagram": ""
+        "instagram": "",
+        "products": [
+          {
+            "name": "Ceramic Vase",
+            "description": "",
+            "price": "$42",
+            "image": "https://picsum.photos/seed/vase/250/170",
+            "url": ""
+          },
+          {
+            "name": "Soy Candle",
+            "description": "",
+            "price": "$28",
+            "image": "https://picsum.photos/seed/candle/250/170",
+            "url": ""
+          },
+          {
+            "name": "Wool Throw",
+            "description": "",
+            "price": "$95",
+            "image": "https://picsum.photos/seed/throw/250/170",
+            "url": ""
+          }
+        ]
       }
     },
     {
@@ -161,7 +345,30 @@
         "tags": "toys, games, children",
         "phone": "+17323727171",
         "website": "https://genusboni.com",
-        "instagram": ""
+        "instagram": "",
+        "products": [
+          {
+            "name": "Ceramic Vase",
+            "description": "",
+            "price": "$42",
+            "image": "https://picsum.photos/seed/vase/250/170",
+            "url": ""
+          },
+          {
+            "name": "Soy Candle",
+            "description": "",
+            "price": "$28",
+            "image": "https://picsum.photos/seed/candle/250/170",
+            "url": ""
+          },
+          {
+            "name": "Wool Throw",
+            "description": "",
+            "price": "$95",
+            "image": "https://picsum.photos/seed/throw/250/170",
+            "url": ""
+          }
+        ]
       }
     }
   ]

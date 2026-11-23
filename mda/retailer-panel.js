@@ -1,30 +1,19 @@
-// Temporary dummy product data (swap for real per-retailer data later).
-// Only the first 3 are shown in the panel.
-const dummyProducts = [
-    {
-        name: "Ceramic Vase",
-        price: "$42",
-        image: "https://picsum.photos/seed/vase/250/170"
-    },
-    {
-        name: "Soy Candle",
-        price: "$28",
-        image: "https://picsum.photos/seed/candle/250/170"
-    },
-    {
-        name: "Wool Throw",
-        price: "$95",
-        image: "https://picsum.photos/seed/throw/250/170"
-    },
-    {
-        name: "Brass Bookends",
-        price: "$38",
-        image: "https://picsum.photos/seed/brass/250/170"
-    }
-];
-
 export function showRetailerPanel(properties, coordinates) {
     const panelContent = document.getElementById("panel-content");
+
+    // MapLibre serializes nested GeoJSON properties, so `products` arrives as a
+    // JSON string instead of an array. Normalize it so .map()/.length are always safe.
+    let products = properties.products;
+    if (typeof products === "string") {
+        try {
+            products = JSON.parse(products);
+        } catch {
+            products = [];
+        }
+    }
+    if (!Array.isArray(products)) {
+        products = [];
+    }
 
     // coordinates arrive as [longitude, latitude]
     const [lng, lat] = coordinates || [];
@@ -66,23 +55,25 @@ export function showRetailerPanel(properties, coordinates) {
             </p>
         </section>
 
+        ${(products.length ? `
         <section class="section">
             <div class="section-header">
                 <h2>Products</h2>
-                <button class="see-all">See all</button>
             </div>
             <div class="items">
-                ${dummyProducts.slice(0, 3).map(product => `
-                    <div class="item">
-                        <img src="${product.image}" alt="${product.name}">
+                ${products.map(product => `
+                    ${product.url ? `<a class="item" href="${product.url}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit">` : `<div class="item">`}
+                        ${product.image ? `<img src="${product.image}" alt="${product.name}">` : ""}
                         <div class="item-info">
-                            <strong>${product.name}</strong>
-                            <span>${product.price}</span>
+                            <strong>${product.name || ""}</strong>
+                            ${product.description ? `<i>${product.description}</i>` : ""}
+                            ${product.price ? `<span>${product.price}</span>` : ""}
                         </div>
-                    </div>
+                    ${product.url ? `</a>` : `</div>`}
                 `).join("")}
             </div>
         </section>
+        ` : "")}
 
         <footer class="panel-links">
             <p>Interested in other events around Metuchen? Check our <a href="https://www.downtownmetuchen.org/calendar/" target="_blank" rel="noopener">Events</a>.</p>

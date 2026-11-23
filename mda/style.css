@@ -344,6 +344,18 @@ header h1 {
     text-overflow: ellipsis;
 }
 
+.item-info i {
+    font-size: 10px;
+
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    color: gray;
+}
+
 
 .item-info span {
     font-size: 13px;
