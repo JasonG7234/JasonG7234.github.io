@@ -20,13 +20,20 @@ export function showRetailerPanel(properties, coordinates) {
     const directionsUrl =
         `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(`${lat},${lng}`)}`;
 
+    // Header image is per-retailer data (like `products`), not a shared default.
+    // Retailers opt in via an `image` property in retailers.geojson; omit it
+    // entirely when absent so a shop's panel never shows another shop's photo.
+    const headerImage = properties.image
+        ? `<img
+            class="business-image"
+            src="${properties.image}"
+            alt="${properties.name}"
+        >`
+        : "";
+
     panelContent.innerHTML = `
         <div class="business-header">
-            <img
-                class="business-image"
-                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.fkliving.com%2Fwp-content%2Fuploads%2F2023%2F10%2F2-CO3A1908-1024x683.jpg&f=1&nofb=1&ipt=d2836bc41e6550c2fad772b4765a8fa93d5b089098e4a9f3fabf3cce49d20b8c&ipo=images"
-                alt="${properties.name}"
-            >
+            ${headerImage}
 
             <div class="business-info">
                 <h1>${properties.name}</h1>

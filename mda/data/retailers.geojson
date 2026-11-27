@@ -53,6 +53,7 @@
       "properties": {
         "name": "FK Living",
         "my-icon": "shop",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.fkliving.com%2Fwp-content%2Fuploads%2F2023%2F10%2F2-CO3A1908-1024x683.jpg&f=1&nofb=1&ipt=d2836bc41e6550c2fad772b4765a8fa93d5b089098e4a9f3fabf3cce49d20b8c&ipo=images",
         "description": "Fawcett & Kind Living is an independent gift shop rooted in New York and London design.",
         "tags": "gifts, books, home decor, jewelry, accessories",
         "phone": "+17325124848",
@@ -95,30 +96,33 @@
       "properties": {
         "name": "Runner's High",
         "my-icon": "pitch",
-        "phone": "+17325550103",
-        "website": "https://example.com/runners-high",
-        "instagram": "",
+        "image": "https://scontent-lga3-1.cdninstagram.com/v/t51.2885-19/358360831_642238461265280_5806231609318175731_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ig_cache_key=GP8mXBWARVjLHEgCAPPzDc3i4JNQbkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy45MDUuQzMifQ%3D%3D&_nc_ohc=C0FElhs-lxEQ7kNvwGiuPWF&_nc_oc=AdrgEOLQ9qlrAHNCTNUCHNNLfxVWIqdAoe67nqRPmi8T0h7MGeDyIxBfZwRVVjz1rMs&_nc_zt=24&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_ss=7a789&_nc_ct=RQosPBUCFQIAAAA&oh=00_AQUe_iMmc8S7_OS6pPdRao_gMPh8MpklqZxhJltHJkvUFA&oe=6B0FB40E",
+        "phone": "+17325499440",
+        "description": "Runner's High is New Jersey's premier specialty running shop.",
+        "tags": "running, clothes, sneakers, workouts, fashion, gear",
+        "website": "https://runnershighnj.com/",
+        "instagram": "https://www.instagram.com/runnershighnj",
         "products": [
           {
-            "name": "Ceramic Vase",
-            "description": "",
-            "price": "$42",
-            "image": "https://picsum.photos/seed/vase/250/170",
-            "url": ""
+            "name": "Nike M Alphafly Next 3",
+            "description": "High-performance running shoes designed for speed and comfort.",
+            "price": "$285",
+            "image": "https://runnershighnj.com/images/1200/138_386564_1743107242936.jpg",
+            "url": "https://runnershighnj.com/product/5612543/nike/m-alphafly-next-3"
           },
           {
-            "name": "Soy Candle",
-            "description": "",
-            "price": "$28",
-            "image": "https://picsum.photos/seed/candle/250/170",
-            "url": ""
+            "name": "Diadora W Warm-Up Protection Fleece",
+            "description": "Thermoregulating fleece with FIBRAZERO fabric - Winter Protection - Women ",
+            "price": "$90",
+            "image": "https://runnershighnj.com/images/1200/114_424982_1758485676126.png",
+            "url": "https://runnershighnj.com/product/5620568/diadora/w-warm-up-protection"
           },
           {
-            "name": "Wool Throw",
-            "description": "",
-            "price": "$95",
-            "image": "https://picsum.photos/seed/throw/250/170",
-            "url": ""
+            "name": "Feetures Max Cushion No Show Tab Socks",
+            "description": "High Performance socks are superior to conventional socks because of their seamless toe, moisture wicking fibers and snug fit. ",
+            "price": "$16",
+            "image": "https://runnershighnj.com/images/1200/13835_18867.png",
+            "url": "https://runnershighnj.com/product/2481342/feetures/high-performance-max-cushion-no-show-tab"
           }
         ]
       }
@@ -135,9 +139,12 @@
       "properties": {
         "name": "New Market",
         "my-icon": "shop",
-        "phone": "+17325550104",
-        "website": "https://example.com/new-market",
-        "instagram": "",
+        "tags": "lifestyle, home goods, home decor, popup shop",
+        "image": "https://scontent-lga3-2.cdninstagram.com/v/t51.2885-19/204332223_313738517091044_2435904525774511457_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ig_cache_key=GL-cLQzkEt3wVx0BAGFdjp1CEs4hbkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mcxIxJFr14QQ7kNvwEl4JW_&_nc_oc=Ado5Zpk39Yq_OPH2EmPDn6Gt9adn4QW9WD0IR1iMAPkO5KbGCPC1Jg3oinaXd5zLQ3sBd93CnovtNbMTUdCT5Z0d&_nc_zt=24&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_ss=7b789&_nc_ct=RQosPBUCFQIAAAA&oh=00_AQWCHA1R0M1bsCfqN0MoZ3KbQXa2pLppIClYTqDWekwNsw&oe=6B0FC36E",
+        "description": "A cooperative lifestyle store in downtown Metuchen that offers stylish, innovative and sustainable products for you and your home.",
+        "phone": "+17323512550",
+        "website": "https://newmarketmetuchen.com/",
+        "instagram": "https://www.instagram.com/newmarketshops",
         "products": [
           {
             "name": "Ceramic Vase",
@@ -177,7 +184,7 @@
         "my-icon": "library",
         "phone": "+17325550105",
         "website": "https://example.com/op-metuchen-books",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/runnershighnj",
         "products": [
           {
             "name": "Ceramic Vase",
@@ -219,7 +226,7 @@
         "tags": "coffee, cafe, food",
         "phone": "+17322439925",
         "website": "https://caiscafe.com",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/runnershighnj",
         "products": [
           {
             "name": "Ceramic Vase",
@@ -261,7 +268,7 @@
         "tags": "pharmacy, health, medicine",
         "phone": "+17325482125",
         "website": "https://boytdrugs.com",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/runnershighnj",
         "products": [
           {
             "name": "Ceramic Vase",
@@ -303,7 +310,49 @@
         "tags": "gaming, arcade, video games",
         "phone": "+18482954481",
         "website": "https://yestercades.com",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/runnershighnj",
+        "products": [
+          {
+            "name": "Ceramic Vase",
+            "description": "",
+            "price": "$42",
+            "image": "https://picsum.photos/seed/vase/250/170",
+            "url": ""
+          },
+          {
+            "name": "Soy Candle",
+            "description": "",
+            "price": "$28",
+            "image": "https://picsum.photos/seed/candle/250/170",
+            "url": ""
+          },
+          {
+            "name": "Wool Throw",
+            "description": "",
+            "price": "$95",
+            "image": "https://picsum.photos/seed/throw/250/170",
+            "url": ""
+          }
+        ]
+      }
+    },{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.36115959386832,
+          40.540897020614636
+        ]
+      },
+      "properties": {
+        "name": "Bonney's BBQ",
+        "my-icon": "restaurant",
+        "image": "https://scontent-lga3-3.cdninstagram.com/v/t51.2885-19/491441519_1438002917369748_545658515688521114_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GG-NSh2UZxMl2xsFAJr9R2yHkZIHbkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=f85DcNEb-B8Q7kNvwEOyTtP&_nc_oc=AdoPTRRVcqIYR_6CJ8jIqjdhKwbOgtbWcB7GATpylzTd_c9HvAhUKfVe3MKIN83E7fbZ82U0ygQ6JkUjeLh2_LWb&_nc_zt=24&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_ss=7b789&_nc_ct=RQosPBUCFQIAAAA&oh=00_AQWTa_KIjrF8Hla3lLWwX7MTnlylbs1hwE8JNpFD0RzlJg&oe=6B0FB53D",
+        "description": "Bonney’s is a fast-casual family restaurant serving a unique mix of Filipino and Jamaican flavors, featuring grilled and bbq favorites like jerk chicken, siniglaw, along with small plates.",
+        "tags": "food, meat, bbq, barbecue",
+        "phone": "+17324872013",
+        "website": "https://bonneysbbq.com",
+        "instagram": "https://www.instagram.com/bonneysbbq",
         "products": [
           {
             "name": "Ceramic Vase",
@@ -345,7 +394,50 @@
         "tags": "toys, games, children",
         "phone": "+17323727171",
         "website": "https://genusboni.com",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/genusboni",
+        "products": [
+          {
+            "name": "Ceramic Vase",
+            "description": "",
+            "price": "$42",
+            "image": "https://picsum.photos/seed/vase/250/170",
+            "url": ""
+          },
+          {
+            "name": "Soy Candle",
+            "description": "",
+            "price": "$28",
+            "image": "https://picsum.photos/seed/candle/250/170",
+            "url": ""
+          },
+          {
+            "name": "Wool Throw",
+            "description": "",
+            "price": "$95",
+            "image": "https://picsum.photos/seed/throw/250/170",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.36241217780706,
+          40.542845878568336
+        ]
+      },
+      "properties": {
+        "name": "Pastry Lu Bakery",
+        "my-icon": "bakery",
+        "image": "https://scontent-lga3-1.cdninstagram.com/v/t51.2885-19/368135377_839523191211612_696808898621894715_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ig_cache_key=GNFM8RVcxpe5ivsCADtwsF4AkKsJbkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=xW99vN9WpWAQ7kNvwHLmLrd&_nc_oc=Adr8bf2HUGuO9DvJ1gF002Q2AAD9aqbijJAKTSJ3PsMqQsg3ghSh4i9zZ5YvJeI6HcJPHoED-WUIUQcFc_-7sMoy&_nc_zt=24&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_ss=7b789&_nc_ct=RQosPBUCFQIAAAA&oh=00_AQV7SlMEzbEjG2CoJj_eXBFAHJYxjm9sNNaePBwNqMa1Ww&oe=6B0FA489",
+        "description": "Pastry Lu is a pastry shop with a strong Dominican influence, with dishes ranging from croissants to their signature Tres Leches.",
+        "tags": "pastry, bakery, Dominican, desserts, sweets",
+        "phone": "+17329676700",
+        "website": "https://www.pastrylu.com",
+        "instagram": "https://www.instagram.com/pastrylubakery",
         "products": [
           {
             "name": "Ceramic Vase",
