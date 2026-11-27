@@ -306,11 +306,12 @@
       "properties": {
         "name": "Yestercades",
         "my-icon": "lighthouse",
-        "description": "Yestercades is an arcade offering a variety of video games and arcade experiences.",
+        "image": "https://scontent-lga3-3.cdninstagram.com/v/t51.2885-19/290198239_185737450463576_4588421920571417277_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ig_cache_key=GN8STBFYocFe7agAAL1iRh9tWa0-bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MDAuQzMifQ%3D%3D&_nc_ohc=6qMHgguDZxEQ7kNvwFt7FNH&_nc_oc=AdpDBHwSu5_CUZmtZoid1J9YHmKpO9BxYKf6NHkQc-HDVonaEKGCgWQvTckBqbPPvxu6jGM26bQ7LmFbxbi7fu7u&_nc_zt=24&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_ss=7b789&_nc_ct=RQosPBUCFQIAAAA&oh=00_AQVbRzPowANYU0hDHrMuQ8ID97qMWTL_qHW5Hmtia9R2pA&oe=6B0FB420",
+        "description": "Yestercades is New Jersey's greatest retro arcade. Return to the golden age of gaming today!",
         "tags": "gaming, arcade, video games",
         "phone": "+18482954481",
-        "website": "https://yestercades.com",
-        "instagram": "https://www.instagram.com/runnershighnj",
+        "website": "https://yestercades.com/metuchen",
+        "instagram": "https://www.instagram.com/yestercades",
         "products": [
           {
             "name": "Ceramic Vase",
@@ -335,7 +336,94 @@
           }
         ]
       }
-    },{
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.36108543288067, 
+          40.54153770015353
+        ]
+      },
+      "properties": {
+        "name": "Chamber43 Records",
+        "my-icon": "music",
+        "image": "https://scontent-lga3-3.cdninstagram.com/v/t51.2885-19/154152409_837196450164758_7741535585825148387_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=GNktMAkW8AT9bPkCAONNJ1GZdW9rbkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=YtGk96AX60sQ7kNvwE3ioem&_nc_oc=AdowE_mqy_OftcnKVF8IuTfWVF4VmgkrUDRa8RoaBGNbA-z6iwmSKNniL15_n2wnrwTD3GdFf_I0pwO4wCy4-BN4&_nc_zt=24&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_ss=7b789&_nc_ct=RQosPBUCFQIAAAA&oh=00_AQUzrRuwKTQFQ5zf-Smx0CGyK1jxrK0VcYs0QzF-5TaACA&oe=6B0F9D67",
+        "description": "Chamber43 Records is your go-to spot for vinyl records and music memorabilia in New Jersey.",
+        "tags": "vinyl, records, music memorabilia",
+        "phone": "+17323225767",
+        "website": "https://chamber43records.com",
+        "instagram": "https://www.instagram.com/chamber43nj",
+        "products": [
+          {
+            "name": "Ceramic Vase",
+            "description": "",
+            "price": "$42",
+            "image": "https://picsum.photos/seed/vase/250/170",
+            "url": ""
+          },
+          {
+            "name": "Soy Candle",
+            "description": "",
+            "price": "$28",
+            "image": "https://picsum.photos/seed/candle/250/170",
+            "url": ""
+          },
+          {
+            "name": "Wool Throw",
+            "description": "",
+            "price": "$95",
+            "image": "https://picsum.photos/seed/throw/250/170",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.36202350343416,
+          40.5431522722656
+        ]
+      },
+      "properties": {
+        "name": "Greenhouse Music Co",
+        "my-icon": "music",
+        "image": "https://scontent-lga3-3.cdninstagram.com/v/t51.75761-19/502773691_17926668399064737_5396797890733658960_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ig_cache_key=GLu39x2htu69NbA-AFDTwZEWR_VKbvEnAQAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=vK2DGBndChoQ7kNvwFSgHCJ&_nc_oc=AdqwNak4xgy5vo1avkMjgcG1uvPzkDOZ-VeJJFuFrhYkra716KhVmOVzbe61pK3tMHcNgm1U8CnXW0r0GA5iD1HR&_nc_zt=24&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_gid=97dA_5l-6Ms8Gca2MziJaw&_nc_ss=7b789&_nc_ct=RQosPBUCFQIAAAA&oh=00_AQXCzUbt-_Bq7-AU-KkZyL2xAS_fJJSdpBoQut0p9om42w&oe=6B0FA2EB",
+        "description": "Greenhouse Music Co is your go-to spot for music rehearsals, studio time, guitar sales and repairs in New Jersey.",
+        "tags": "rehearsals, studio, guitars, repairs, music",
+        "phone": "+17323186230",
+        "website": "https://thegreenhousemusicco.com/",
+        "instagram": "https://www.instagram.com/thegreenhousemusicco",
+        "products": [
+          {
+            "name": "Ceramic Vase",
+            "description": "",
+            "price": "$42",
+            "image": "https://picsum.photos/seed/vase/250/170",
+            "url": ""
+          },
+          {
+            "name": "Soy Candle",
+            "description": "",
+            "price": "$28",
+            "image": "https://picsum.photos/seed/candle/250/170",
+            "url": ""
+          },
+          {
+            "name": "Wool Throw",
+            "description": "",
+            "price": "$95",
+            "image": "https://picsum.photos/seed/throw/250/170",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -390,11 +478,54 @@
       "properties": {
         "name": "Genus Boni",
         "my-icon": "soccer",
+        "image": "https://scontent-lga3-3.cdninstagram.com/v/t51.2885-19/21980681_149987745600710_1622411960349884416_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ig_cache_key=GAlmTwHGFEy_aYgAAAAAAAAV94MWbkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=FroxPygYmh8Q7kNvwHLtgRY&_nc_oc=AdoeIZNnfkEsY0qzHrtoZA7eFcLBaI8vSnmujSK2kiaLJylf-Mav1Zade99K6iCc7JAPkfHzMTEXoDU2Qhij5ngu&_nc_zt=24&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_ss=7b789&_nc_ct=RQosPBUCFQIAAAA&oh=00_AQURNatSSx-h-KGBRAyE5gOH8mfKHxZK1zMyP6P43VKDbQ&oe=6B0FA6B4",
         "description": "Genus Boni is a toy store offering a variety of toys and games for children of all ages.",
-        "tags": "toys, games, children",
+        "tags": "toys, games, children, books, crafts",
         "phone": "+17323727171",
         "website": "https://genusboni.com",
         "instagram": "https://www.instagram.com/genusboni",
+        "products": [
+          {
+            "name": "Ceramic Vase",
+            "description": "",
+            "price": "$42",
+            "image": "https://picsum.photos/seed/vase/250/170",
+            "url": ""
+          },
+          {
+            "name": "Soy Candle",
+            "description": "",
+            "price": "$28",
+            "image": "https://picsum.photos/seed/candle/250/170",
+            "url": ""
+          },
+          {
+            "name": "Wool Throw",
+            "description": "",
+            "price": "$95",
+            "image": "https://picsum.photos/seed/throw/250/170",
+            "url": ""
+          }
+        ]
+      }
+    },{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.36138727117725,
+          40.54184453646888
+        ]
+      },
+      "properties": {
+        "name": "Acting Out Studio",
+        "my-icon": "theatre",
+        "image": "https://scontent-lga3-3.cdninstagram.com/v/t51.2885-19/65386008_351675655516716_125839930432684032_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ig_cache_key=GBi25QMs8oXe2D8BAAAAAADAEr8BbkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy41MDAuQzMifQ%3D%3D&_nc_ohc=cB1U7yfiLkYQ7kNvwGpttVh&_nc_oc=AdpwAM_71XD0lPDpe48r2GM49rlLsAuFofDdWJKjy_wDigUgAi_CpH-0wupzpRi7XZ-JpETSwiLrImsumtc-8qlN&_nc_zt=24&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_ss=7b789&_nc_ct=RQosPBUCFQIAAAA&oh=00_AQUyRoDog9mlel2XceaLDOz1KRp77c-UNQQ58m0DDNjlrw&oe=6B0FA5C6",
+        "description": "Acting Out Studio is a safe place to express yourself through the performing arts via classes, workshops, and private lessons.",
+        "tags": "theatre, acting, classes, workshops, performing arts",
+        "phone": "+17323727143",
+        "website": "https://actingoutonline.com",
+        "instagram": "https://www.instagram.com/actingoutschool",
         "products": [
           {
             "name": "Ceramic Vase",
@@ -438,6 +569,178 @@
         "phone": "+17329676700",
         "website": "https://www.pastrylu.com",
         "instagram": "https://www.instagram.com/pastrylubakery",
+        "products": [
+          {
+            "name": "Ceramic Vase",
+            "description": "",
+            "price": "$42",
+            "image": "https://picsum.photos/seed/vase/250/170",
+            "url": ""
+          },
+          {
+            "name": "Soy Candle",
+            "description": "",
+            "price": "$28",
+            "image": "https://picsum.photos/seed/candle/250/170",
+            "url": ""
+          },
+          {
+            "name": "Wool Throw",
+            "description": "",
+            "price": "$95",
+            "image": "https://picsum.photos/seed/throw/250/170",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.36237431933057,
+          40.542790273549116
+        ]
+      },
+      "properties": {
+        "name": "What's the Scoop",
+        "my-icon": "ice_cream",
+        "image": "https://scontent-lga3-3.cdninstagram.com/v/t51.2885-19/15306781_1777661219155566_4863665960067792896_a.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ig_cache_key=GB2Q6QBurn8BxlAGAAAAAABsNn9DYUULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy44NjIuQzMifQ%3D%3D&_nc_ohc=1KwQ4YT6v8sQ7kNvwGWVYXu&_nc_oc=AdrKlUZ-OvZV8BF_1qqXrCvxngwMjvrwHkZru4ggg6KjqAKLdHijOHVxfwVXrgDs_GDLx-PkP3yU3UfnvH1xNf1L&_nc_zt=24&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_ss=7b789&_nc_ct=RQosPBUCFQIAAAA&oh=00_AQU9fn42eZ00tIJiFUZ86OYmSZNTf7SUJqNj49Jev3F5VA&oe=6B0FB290",
+        "description": "What's the Scoop is a premium ice cream shop in downtown Metuchen offering a variety of flavors and treats.",
+        "tags": "ice cream, desserts, sweets",
+        "phone": "+17323186665",
+        "website": "https://www.whatsthescoopmetuchen.com",
+        "instagram": "https://www.instagram.com/whats_the_scoop_nj/",
+        "products": [
+          {
+            "name": "Ceramic Vase",
+            "description": "",
+            "price": "$42",
+            "image": "https://picsum.photos/seed/vase/250/170",
+            "url": ""
+          },
+          {
+            "name": "Soy Candle",
+            "description": "",
+            "price": "$28",
+            "image": "https://picsum.photos/seed/candle/250/170",
+            "url": ""
+          },
+          {
+            "name": "Wool Throw",
+            "description": "",
+            "price": "$95",
+            "image": "https://picsum.photos/seed/throw/250/170",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.36270637271527,
+          40.54093853908628
+        ]
+      },
+      "properties": {
+        "name": "Meximodo",
+        "my-icon": "restaurant",
+        "image": "https://scontent-lga3-3.cdninstagram.com/v/t51.82787-19/883141487_18057744194805434_3583922623207476766_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ig_cache_key=GG_rozS6Hi00bCdAAB6OxCqjprwxbmNDAQAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ATpLVmaCOnEQ7kNvwHjKpbj&_nc_oc=Adpwv_1QC160fOf3DzSjM34m_e8lW9JQb2KwYPA_Pka3v2FJdDZRFXYXlBy-jumrGR1tjcungKrQNCgpClGF3Nk5&_nc_zt=24&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_gid=HwHBhlgMZ1YfViA7HHxheQ&_nc_ss=7b789&_nc_ct=RQosPBUCFQIAAAA&oh=00_AQVdFN25F1OwH7Hbx6PSxy-lekvEFrMmwKCab5rtay0ezg&oe=6B0FD272",
+        "description": "Meximodo is a Mexican restaurant & tequila bar in downtown Metuchen.",
+        "tags": "mexican, restaurant, tequila",
+        "phone": "+17323957767",
+        "website": "https://www.meximodo.com/reserve-your-table-mtc",
+        "instagram": "https://www.instagram.com/meximodo/",
+        "products": [
+          {
+            "name": "Ceramic Vase",
+            "description": "",
+            "price": "$42",
+            "image": "https://picsum.photos/seed/vase/250/170",
+            "url": ""
+          },
+          {
+            "name": "Soy Candle",
+            "description": "",
+            "price": "$28",
+            "image": "https://picsum.photos/seed/candle/250/170",
+            "url": ""
+          },
+          {
+            "name": "Wool Throw",
+            "description": "",
+            "price": "$95",
+            "image": "https://picsum.photos/seed/throw/250/170",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.3610888114186,
+          40.541337731064026
+        ]
+      },
+      "properties": {
+        "name": "Hailey's Harp",
+        "my-icon": "restaurant",
+        "image": "https://scontent-lga3-3.cdninstagram.com/v/t51.2885-19/81392225_2436394213150245_6445504103106740224_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=GGHy2QQljps746cIAAAAAADVB3NZbkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy42MDAuQzMifQ%3D%3D&_nc_ohc=9s3dGyh8dV8Q7kNvwE_vVKs&_nc_oc=AdovUFWirbJJREZcYfWtPVjwKM4JuXh80Fh2L2hfAy1FkphBRlrk6qlC6us3dDj7CG-28sVyLujZ-DLh-57gf1SD&_nc_zt=24&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_ss=7b789&_nc_ct=RQosPBUCFQIAAAA&oh=00_AQXyqFESH4r6MBTpUI_QgvmX8jSbaL3s0s7p9WLtgM2Apg&oe=6B0FB325",
+        "description": "Hailey's Harp and Pub is downtown Metuchen's friendly neighborhood Irish pub.",
+        "tags": "irish, pub, bar",
+        "phone": "+17323210777",
+        "website": "https://haileysharpandpub.com/haileys-harp-and-pub/",
+        "instagram": "https://www.instagram.com/haileysharpandpub/",
+        "products": [
+          {
+            "name": "Ceramic Vase",
+            "description": "",
+            "price": "$42",
+            "image": "https://picsum.photos/seed/vase/250/170",
+            "url": ""
+          },
+          {
+            "name": "Soy Candle",
+            "description": "",
+            "price": "$28",
+            "image": "https://picsum.photos/seed/candle/250/170",
+            "url": ""
+          },
+          {
+            "name": "Wool Throw",
+            "description": "",
+            "price": "$95",
+            "image": "https://picsum.photos/seed/throw/250/170",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.36262288323239,
+          40.54142846187694
+        ]
+      },
+      "properties": {
+        "name": "Hatch 44 Cafe",
+        "my-icon": "restaurant",
+        "image": "https://scontent-lga3-1.cdninstagram.com/v/t51.82787-19/731682731_18414282109197596_4149174850518752318_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ig_cache_key=GKuXnCscneknsWtBAD6cJxSL1JQ5bmNDAQAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=VYYR20WkqmgQ7kNvwGCOM73&_nc_oc=AdrvLwhHMiMpvaZx92zwX-sbA-mDoZEXo2ezuixRcTKbMQLrzhc4iIFi0kHMaAvo3qp9tLCSssYJ2CuhK3XElN63&_nc_zt=24&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_gid=zQDDspM9fZeiR_1iRWbjEw&_nc_ss=7b789&_nc_ct=RQosPBUCFQIAAAA&oh=00_AQUi-OnbkC2DCD2ZIOka75MeoXLm-zpthBNsl-xpzSGUsQ&oe=6B0FD4AC",
+        "description": "Hatch 44 is a cozy local cafe serving breakfast and lunch in Metuchen.",
+        "tags": "cafe, breakfast, lunch",
+        "phone": "+17326627200",
+        "website": "https://hatch44cafe.com/",
+        "instagram": "https://www.instagram.com/hatch44cafe/",
         "products": [
           {
             "name": "Ceramic Vase",
